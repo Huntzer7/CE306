@@ -3,16 +3,38 @@
 
     <head>
         <meta charset="UTF-8"
-        <title>เว็บแรกของฉัน</title>
+        <title>ฝึก html</title>
     </head>
 
     <body>
         <h1>สวัสดีชาวโลก</h1>
-        <h2>นี่คือหัวควย</h2>
-        <p>นี่คือข้อความธรรมดาหนึ่งย่อหน้า</p>
-        <p>นี่คือย่อหน้าที่สอง</p>
 
+        <!-- ลิงก์ -->
+        <a href="https://www.google.com" target="_blank">ไปกูเกิ้ล</a>
+
+        <!-- รูปภาพ -->
+        <img src="https://placecats.com/200/200" alt="รูปแมว">
+
+        <!-- กล่องจัดกลุ่ม -->
+        <div>
+            <h2>ฟอร์มกรอกข้อมูล</h2>
+
+            <label for="name">ชื่อ</label>
+            <input type="text" id="name" placeholder="กรอกชื่อ">
+
+            <label for="amount">จำนวนเงิน</label>
+            <input type="number" id="amount" placeholder="0.00">
+
+            <label for="currency">สกุลเงิน</label>
+            <select id="currency">
+                <option value="thb">THB - บาทไทย</option>
+                <option value="usd">USD - ดอลลาร์</option>
+            </select>
+
+            <button type="button">ยืนยัน</button>
+        </div>
+        
     </body>
-    
+
 
 </html>
