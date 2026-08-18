@@ -1,40 +1,31 @@
 <!DOCTYPE html>
-<html lang="th"
-
+<html lang="th">
     <head>
-        <meta charset="UTF-8"
+        <meta charset="UTF-8">
         <title>ฝึก html</title>
+        <link rel="stylesheet" href="style.css">
     </head>
-
+    
     <body>
-        <h1>สวัสดีชาวโลก</h1>
 
-        <!-- ลิงก์ -->
-        <a href="https://www.google.com" target="_blank">ไปกูเกิ้ล</a>
+        <div class="container">
 
-        <!-- รูปภาพ -->
-        <img src="https://placecats.com/200/200" alt="รูปแมว">
+            <h1 id="main-title">แปลงสกุลเงิน</h1>
 
-        <!-- กล่องจัดกลุ่ม -->
-        <div>
-            <h2>ฟอร์มกรอกข้อมูล</h2>
+            <div class="card">
+                <label for="amount">จำนวนเงิน</label>
+                <input type="number" id="amount" placeholder="0.00">
 
-            <label for="name">ชื่อ</label>
-            <input type="text" id="name" placeholder="กรอกชื่อ">
-
-            <label for="amount">จำนวนเงิน</label>
-            <input type="number" id="amount" placeholder="0.00">
-
-            <label for="currency">สกุลเงิน</label>
-            <select id="currency">
-                <option value="thb">THB - บาทไทย</option>
-                <option value="usd">USD - ดอลลาร์</option>
-            </select>
-
-            <button type="button">ยืนยัน</button>
-        </div>
+                <label for="currency">สกุลเงิน</label>
+                <select id="currency">
+                    <option value="thb">THB - บาทไทย</opton>
+                    <option value="usd">USD - ดอลลาร์</option>
+                </select>
         
+                <button type="button">ยืนยัน</button>
+            </div>
+
+        </div>
+
     </body>
-
-
 </html>
