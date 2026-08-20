@@ -16,16 +16,61 @@
                 <label for="amount">จำนวนเงิน</label>
                 <input type="number" id="amount" placeholder="0.00">
 
+                <!--amount-one-->
+                <div class="currency-field">
+                    <label for="currency">สกุลเงิน</label>
+                    <div class="input-group">
+                        <select id="currency">
+                            <option value="THB">🇹🇭 THB</option>
+                            <option value="USD" selected>🇺🇸 USD</option>
+                            <option value="EUR">🇪🇺 EUR</option>
+                            <option value="GBP">🇬🇧 GBP</option>
+                            <option value="JPY">🇯🇵 JPY</option>
+                            <option value="CNY">🇨🇳 CNY</option>
+                            <option value="KRW">🇰🇷 KRW</option>
+                            <option value="SGD">🇸🇬 SGD</option>
+                            <option value="AUD">🇦🇺 AUD</option>
+                            <option value="HKD">🇭🇰 HKD</option>
+                            <option value="MYR">🇲🇾 MYR</option>
+                        </select>
+                        <input type="number" class="amount-input" id="amount-one" placeholder="กรอกจำนวนเงิน" min="0">
+                    </div>
+                </div>
+
+                <!--ปุ่ม สลับช่องทาง (swap)-->
+                <div class="swap-row">
+                    <button class="swap-btn" id="swap-btn" title="สลับสกุลเงิน">⇅</button>
+                </div>
+
+                <!--amount-two-->
+                <div class="currency-field">
+                    <label for="currency">สกุลเงิน</label>
+                    <div class="input-group">
+                        <select id="currency">
+                            <option value="THB" selected>🇹🇭 THB</option>
+                            <option value="USD">🇺🇸 USD</option>
+                            <option value="EUR">🇪🇺 EUR</option>
+                            <option value="GBP">🇬🇧 GBP</option>
+                            <option value="JPY">🇯🇵 JPY</option>
+                            <option value="CNY">🇨🇳 CNY</option>
+                            <option value="KRW">🇰🇷 KRW</option>
+                            <option value="SGD">🇸🇬 SGD</option>
+                            <option value="AUD">🇦🇺 AUD</option>
+                            <option value="HKD">🇭🇰 HKD</option>
+                            <option value="MYR">🇲🇾 MYR</option>
+                        </select>
+                        <input type="number" class="amount-input" id="amount-two" placeholder="กรอกจำนวนเงิน" min="0">
+                    </div>
+                </div>
+
+                <div class="direction-hint" id="direction-hint">
+                    พิมพ์ในช่องใดช่องหนึ่งเพื่อแปลงสองทิศทาง
+                </div>
+
                 <div id="result-box" class="result-box">
                     result
                 </div>
 
-                <label for="currency">สกุลเงิน</label>
-                <select id="currency">
-                    <option value="thb">THB - บาทไทย</opton>
-                    <option value="usd">USD - ดอลลาร์</option>
-                </select>
-        
                 <button type="button" class="btn" id="convert-btn">
                     แปลงสกุลเงิน
                 </button>

@@ -1,40 +1,60 @@
-const RATE_USD_TO_THB = 35.45
+const RATES = {
+    USD: 1,
+  THB: 35.45,
+  EUR: 0.922,
+  GBP: 0.786,
+  JPY: 149.82,
+  CNY: 7.24,
+  KRW: 1328.5,
+  SGD: 1.342,
+  AUD: 1.531,
+  HKD: 7.824,
+  MYR: 4.695
+};
 
-const amountInput = document.getElementById("amount")
-const resultBox = document.getElementById("result-box")
-const convertBtn = document.getElementById("convert-btn")
-const clearBtn = document.getElementById("clear-btn")
+const amountOne = document.getElementById("amount-one")
+const amountTwo = document.getElementById("amount-two")
+const currencyOne = document.getElementById("currency-one")
+const currencyTwo = document.getElementById("currency-two")
 
-function convertMoney() {
+let lastEdited = "one"
 
-    const rawValue = amountInput.value
+function convert(amount,fromCurrency, toCurrency) {
+    const inUSD = amount / RATES[fromCurrency]
+    return inUSD * RATE[toCurrency]
+}
 
-    const usd = parseFloat(rawValue)
 
-    if (rawValue === "" || isNaN(usd) || usd < 0) {
-        resultBox.textContent = "⚠️ โปรดกรอกจำนวนเงิน"
+amountOne.addEventListener("input" , function() {
+    lastEdited = "one"
+
+    const val = parseFloat(amountOne.value)
+
+    if (amountOne.value === "" || isNaN(val)) {
+        amountTwo.textContent = "⚠️ โปรดกรอกจำนวนเงิน"
         return
     }
 
-    const thb = usd * RATE_USD_TO_THB
+    const result = convert(val, currencyOne.value, currencyTwo.value)
+    amountTwo.value = result.toFixed(4)
+})
 
-    const usdFormatted = usd.toLocaleString("th-TH" , { minimumFractionDigits: 2})
-    const thbFormatted = thb.toLocaleString("th-TH" , { minimumFractionDigits: 2})
+amountTwo.addEventListener("input" , function() {
+    lastEdited = "two"
 
-    resultBox.textContent = usdFormatted + " USD = " + thbFormatted + " THB"
-}
+    const val = parseFloat(amountTwo.value)
 
-function clearData() {
-    amountInput.value = ""
-    resultBox.textContent = "Result"
-    amountInput.focus()
-}
+    if (amountTwo.value === "" || isNaN(val)) {
+        amountOne.textContent = "⚠️ โปรดกรอกจำนวนเงิน"
+        return
+    }
 
-convertBtn.addEventListener("click" , convertMoney)
-clearBtn.addEventListener("click" , clearData)
+    const result = convert(val, currencyTwo.value, currencyOne.value)
+    amountOne.value = result.toFixed(4)
+})
 
-amountInput.addEventListener("Keydown" , function(Event) {
-    if (event.key === "Enter") {
-        convertMoney()
+currencyOne.addEventListener("change" , function() {
+    if (lastEdited === "one" && amountTwo.value) {
+        amountTwo.dispatchEvent(new Event("input"))
     }
 })
