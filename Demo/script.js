@@ -18,6 +18,7 @@ const amountOne = document.getElementById("amount-one")
 const amountTwo = document.getElementById("amount-two")
 const currencyOne = document.getElementById("currency-one")
 const currencyTwo = document.getElementById("currency-two")
+const convertBtn = document.getElementById("convert-btn")
 const historyList = document.getElementById("history-list")
 const historyEmpty = document.getElementById("history-empty")
 const historyCount = document.getElementById("history-count")
@@ -26,6 +27,7 @@ const clearBtn = document.getElementById("clear-btn")
 const resultBox = document.getElementById("result-box")
 const rateText = document.getElementById("rate-text")
 const updateTime = document.getElementById("update-time")
+const swapBtn = document.getElementById("swap-btn")
 
 const DEFAULT_CURRENCY_ONE = "USD"
 const DEFAULT_CURRENCY_TWO = "THB"
@@ -34,7 +36,7 @@ let lastEdited = "one"
 
 function convert(amount,fromCurrency, toCurrency) {
     const inUSD = amount / RATES[fromCurrency]
-    return inUSD * RATE[toCurrency]
+    return inUSD * RATES[toCurrency]
 }
 
 
@@ -44,7 +46,7 @@ amountOne.addEventListener("input" , function() {
     const val = parseFloat(amountOne.value)
 
     if (amountOne.value === "" || isNaN(val)) {
-        amountTwo.textContent = "⚠️ โปรดกรอกจำนวนเงิน"
+        amountTwo.value = ""
         return
     }
 
@@ -58,7 +60,7 @@ amountTwo.addEventListener("input" , function() {
     const val = parseFloat(amountTwo.value)
 
     if (amountTwo.value === "" || isNaN(val)) {
-        amountOne.textContent = "⚠️ โปรดกรอกจำนวนเงิน"
+        amountOne.value = ""
         return
     }
 
@@ -67,9 +69,19 @@ amountTwo.addEventListener("input" , function() {
 })
 
 currencyOne.addEventListener("change" , function() {
-    if (lastEdited === "one" && amount-two.value) {
-        amount-two.dispatchEvent(new Event("input"))
+    if (lastEdited === "one" && amountOne.value) {
+        amountOne.dispatchEvent(new Event("input"))
     }
+})
+
+swapBtn.addEventListener("click", function() {
+    const tempCurrency = currencyOne.value
+    currencyOne.value = currencyTwo.value
+    currencyTwo.value = tempCurrency
+
+    const tempAmount = amountOne.value
+    amountOne.value = amountTwo.value
+    amountTwo.value = tempAmount
 })
 
 function addHistory(fromVal, fromCur, toVal, toCur) {
@@ -115,14 +127,14 @@ function renderHistory() {
               '<span class="arrow">→</span>' +
               item.to +
             '</span>' +
-            '<span class="history-item">' + item.time + '</span>'
+            '<span class="history-time">' + item.time + '</span>'
         
         historyList.appendChild(div)
     })
 }
 
 function getTimeNow() {
-    const now = new Data()
+    const now = new Date()
 
     return now.toLocaleTimeString("th-TH" , {
         hour: "2-digit",
@@ -138,9 +150,9 @@ clearHistoryBtn.addEventListener("click", function() {
 })
 
 function getFullTime() {
-    const now = new Data()
+    const now = new Date()
     
-    const date = now.toLocaleDataString("th-TH", {
+    const date = now.toLocaleDateString("th-TH", {
 
         timeZone:"Asia/Bangkok",
         day:      "2-digit",
@@ -165,7 +177,7 @@ function updateTimestamp() {
 
 updateTimestamp()
 
-setInterval(updateTimestamp, 6000)
+setInterval(updateTimestamp, 60000)
 
 convertBtn.addEventListener("click", function() {
     const val = parseFloat(amountOne.value)
@@ -189,8 +201,6 @@ function clearAll() {
 
     currencyOne.value = DEFAULT_CURRENCY_ONE
     currencyTwo.value = DEFAULT_CURRENCY_TWO
-
-    resultBox.textContent = "ผลลัพธ์จะแสดงที่นี่"
 
     rateText.textContent = "เลือกสกุลเงินเพื่อดูอัตราแลกเปลี่ยน"
 
