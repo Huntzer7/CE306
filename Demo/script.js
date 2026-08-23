@@ -139,8 +139,8 @@ function getTimeNow() {
     return now.toLocaleTimeString("th-TH" , {
         hour: "2-digit",
         minute: "2-digit",
-        second: false,
-        timezone: "Asia/Bangkok"
+        second: "2-digit",
+        timeZone: "Asia/Bangkok"
     })
 }
 
@@ -192,6 +192,7 @@ convertBtn.addEventListener("click", function() {
     const fromFormatted = val.toLocaleString("th-TH" , { minimumFractionDigits: 2})
     const toFormatted = result.toLocaleString("th-TH" , { minimumFractionDigits: 2})
     addHistory(fromFormatted, from, toFormatted, to)
+    updateTimestamp()
 })
 
 function clearAll() {
