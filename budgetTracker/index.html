@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>โปรแกรมบันทึกรายรับ-รายจ่าย</title>
+    <!-- เชื่อมต่อไฟล์ CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>บันทึกรายรับ-รายจ่าย</h2>
+
+    <!-- โจทย์ที่ 4: สรุปรายงานการเงิน -->
+    <div class="balance-card">
+        <h3>ยอดเงินคงเหลือสุทธิ</h3>
+        <h1 id="balance">฿0.00</h1>
+    </div>
+    <div class="summary">
+        <div class="income-box">
+            <h4>รายรับรวม</h4>
+            <p id="money-plus">+฿0.00</p>
+        </div>
+        <div class="expense-box">
+            <h4>รายจ่ายรวม</h4>
+            <p id="money-minus">-฿0.00</p>
+        </div>
+    </div>
+
+    <!-- ฟอร์มเพิ่มข้อมูล -->
+    <form id="form">
+        <input type="text" id="text" placeholder="ชื่อรายการ (เช่น ข้าวผัด, เงินเดือน)" required>
+        <input type="number" id="amount" placeholder="จำนวนเงิน (฿)" min="1" step="0.01" required>
+        
+        <!-- โจทย์ที่ 1: เพิ่มหมวดหมู่ธุรกรรม และ ประเภท -->
+        <select id="type" required>
+            <option value="income">รายรับ (+)</option>
+            <option value="expense" selected>รายจ่าย (-)</option>
+        </select>
+        
+        <select id="category" required>
+            <option value="อาหาร">🍔 อาหาร</option>
+            <option value="เดินทาง">🚗 เดินทาง</option>
+            <option value="ช้อปปิ้ง">🛍️ ช้อปปิ้ง</option>
+            <option value="เงินเดือน">💰 เงินเดือน</option>
+            <option value="อื่นๆ">📝 อื่นๆ</option>
+        </select>
+
+        <button type="submit" class="btn-submit">เพิ่มรายการ</button>
+    </form>
+
+    <!-- โจทย์ที่ 2: เพิ่มตัวกรองและค้นหารายการ -->
+    <div class="search-container">
+        <input type="text" id="search" placeholder="🔍 ค้นหารายการ (พิมพ์เพื่อค้นหา...)">
+    </div>
+
+    <!-- โจทย์ที่ 3: แสดงประวัติรายการทั้งหมด -->
+    <ul id="list">
+        <!-- รายการจะถูกแทรกที่นี่ผ่าน JavaScript -->
+    </ul>
+
+    <!-- โจทย์ที่ 5: เพิ่มปุ่มล้างประวัติทั้งหมด -->
+    <button id="clear-btn" class="btn-clear">🗑️ ล้างข้อมูลทั้งหมด</button>
+</div>
+
+<!-- เชื่อมต่อไฟล์ JavaScript -->
+<script src="script.js"></script>
+</body>
+</html>
