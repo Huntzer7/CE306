@@ -90,6 +90,20 @@ select:focus {
     border-color: #999999;
 }
 
+.swap-btn {
+    background: #111111;
+    color: #ffffff;
+    border: 1.5px solid #cccccc;
+    width: 100%;
+    height: 36px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 0px 10px;
+    transition: background 0.2s, transform 0.2s;
+}
+
 .history-card {
     background: #ffffff;
     border: 1.5px solid #dddddd;
