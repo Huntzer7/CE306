@@ -7,25 +7,12 @@
     </head>
     
     <body>
+        <img src="img/money.png" class="money-img" alt="Money Image">
+        <h1 id="main-title">แปลงสกุลเงิน</h1>
 
         <div class="container">
-
-            <h1 id="main-title">แปลงสกุลเงิน</h1>
-
-            <div class="history-card">
-                <div class="history-header">
-                    <h2>ประวัติการแปลงเงิน</h2>
-                    <span id="history-count">0 รายการ</span>
-                    <button type="button" id="clear-history-btn">ล้างประวัติ</button>
-                </div>
-
-                <div id="history-list">
-
-                    <div id="history-empty">
-                        ยังไม่มีประวัติการแปลงเงิน
-                    </div>
-                </div>
-            </div>
+            
+            <div class="converter-section">
 
             <div class="rate-display">
                 <div class="timestamp">
@@ -93,8 +80,24 @@
                         ล้างข้อมูล
                     </button>
                 </div>
-
+            
             </div>
+
+                <div class="history-card">
+                <div class="history-header">
+                    <h2>ประวัติการแปลงเงิน</h2>
+                    <span id="history-count">0 รายการ</span>
+                    <button type="button" id="clear-history-btn">ล้างประวัติ</button>
+                </div>
+
+                <div id="history-list">
+
+                    <div id="history-empty">
+                        ยังไม่มีประวัติการแปลงเงิน
+                    </div>
+                </div>
+            </div>
+
         </div>
         <script src="script.js"></script>
     </body>
