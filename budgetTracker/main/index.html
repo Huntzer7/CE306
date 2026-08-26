@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="th">
+    <head>
+        <meta charset="UTF-8">
+        <title>Budget Tracker</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+    <div class="container">
+        <h2>Budget Tracker</h2>
+
+        <div class="balance-card">
+            <h3>Balance</h3>
+            <h1 id="balance">฿0.00</h1>
+        </div>
+
+        <div class="summary">
+            <div class="income-box">
+                <h4>Income</h4>
+                <p id="money-plus">฿0.00</p>
+            </div>
+            <div class="expense-box">
+                <h4>Expense</h4>
+                <p id="money-minus">-฿0.00</p>
+            </div>
+        </div>
+
+        <form id="form">
+            <input type="text" id="text" placeholder="ชื่อรายการ (กรอกหมือไร่ก็ได้)">
+            <input type="number" id="amount" placeholder="จำนวนเงิน (฿)" min="1" step="1" required>
+            <!-- หาทางตกแต่งข้อความ amount required -->
+
+            <select id="type" required>
+                <option value="income">Income (+)</option>
+                <option value="expense">Expense (-)</option>
+            </select>
+
+            <select id="category" required>
+                <option value="=อาหาร">Food</option>
+                <option value="=เดินทาง">Travel</option>
+                <option value="=เงินเดือน">Salary</option>
+                <option value="ช้อปปิ้ง">Shopping</option>
+                <option value="ค่าน้ำ/ค่าไฟ"> Utilities</option>
+                <option value="=อื่นๆ">Orther</option>
+            </select>
+
+            <button type="submit" class="btn-submit">เพิ่มรายการ</button>
+        </form>
+
+        <div class="search-container">
+            <input type="text" id="search" placeholder="ค้นหารายการ (พิมพ์เพื่อค้นหา)">
+        </div>
+
+        <ul id="list">
+
+        </ul>
+
+        <button id="clear-btn" class="btn-clear"> ล้างข้อมูลทั้งหมด</button>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
