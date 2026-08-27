@@ -7,6 +7,11 @@
 </head>
 <body>
 
+<div class="top-right-button">
+    <button id="btn-transactions" class="btn-history">📋 Transaction</button>
+    <button id="clear-btn" class="btn-clear">ล้างข้อมูลทั้งหมด</button>
+</div>
+
 <div class="container">
     <h2>Budget Tracker</h2>
 
@@ -29,7 +34,6 @@
     <form id="form">
         <input type="text" id="text" placeholder="ชื่อรายการ (กรอกหมือไร่ก็ได้)">
         <input type="number" id="amount" placeholder="จำนวนเงิน (฿)" min="1" step="1" required>
-        <!-- หาทางตกแต่งข้อความ amount required -->
 
         <select id="type" required>
             <option value="income">Income (+)</option>
@@ -48,15 +52,21 @@
         <button type="submit" class="btn-submit">เพิ่มรายการ</button>
     </form>
 
-    <div class="search-container">
-        <input type="text" id="search" placeholder="🔍 ค้นหารายการ (พิมพ์เพื่อค้นหา...)">
+</div>
+
+<div id="transaction-modal" class="modal">
+    <div class="modal-content">
+        <span class="close-btn">❌</span>
+        <h3 style="margin-top: 0; text-align: center;">History</h3>
+
+        <div class="search-container">
+            <input type="text" id="search" placeholder="🔍 ค้นหารายการ (พิมพ์เพื่อค้นหา...)">
+        </div>
+
+        <ul id="list">
+
+        </ul>
     </div>
-
-    <ul id="list">
-
-    </ul>
-
-    <button id="clear-btn" class="btn-clear"> ล้างข้อมูลทั้งหมด</button>
 </div>
 
 <script src="script.js"></script>

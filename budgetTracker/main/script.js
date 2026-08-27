@@ -9,6 +9,9 @@ const balanceEl = document.getElementById('balance');
 const incomeEl = document.getElementById('money-plus');
 const expenseEl = document.getElementById('money-minus');
 const clearBtn = document.getElementById('clear-btn');
+const btnTransactions =document.getElementById('btn-transactions');
+const modal = document.getElementById('transaction-modal');
+const closeBtn = document.querySelector('.close-btn');
 
 let transactions = [];
 let idCounter = 1;
@@ -98,5 +101,19 @@ function clearAllData() {
 form.addEventListener('submit' , addTransaction);
 searchInput.addEventListener('input', updateUI);
 clearBtn.addEventListener('click', clearAllData);
+
+btnTransactions.addEventListener('click' , () => {
+    modal.style.display = 'flex';
+});
+
+closeBtn.addEventListener('click' , (e) => {
+    modal.style.display = 'none';
+});
+
+window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.style.display = 'none';
+    }
+});
 
 updateUI();
