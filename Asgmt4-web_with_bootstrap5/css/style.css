@@ -1,0 +1,102 @@
+:root {
+  --navy:       #0B1F3A;
+  --navy-mid:   #112844;
+  --navy-light: #1A3558;
+  --cyan:       #00B4D8;
+  --cyan-dim:   rgba(0,180,216,.12);
+  --orange:     #FF6B35;
+  --orange-dim: rgba(255,107,53,.12);
+  --light:      #F0F4F8;
+  --border:     rgba(255,255,255,.1);
+  --text-body:  #C8D6E5;
+  --text-muted: #7A96B2;
+  --radius:     10px;
+}
+
+/* Reset & Base */
+*,*::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth;}
+
+body {
+    font-family: 'Inter', sans-serif;
+    background: var(--navy);
+    color: var(--text-body);
+    margin: 0;
+    overflow-x: hidden;
+    line-height: 1.65;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Barlow Condensed', sans-serif;
+    color: #fff;
+}
+
+a {text-decoration: none}
+
+.py-6 { padding-top: 5rem; padding-bottom: 5rem}
+.mb-6 { margin-bottom: 5rem}
+
+/* Buttons */
+.btn-cta {
+    background: var(--orange);
+    color: #fff !important;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .06em;
+    border: none;
+    border-radius: var(--radius);
+    padding: 10px 26px;
+    transition: background .2s,transform .15s,box-shadow .2s;
+    box-shadow: 0 4px 16px rgba(255,107,53,.3);
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-cta:hover {
+    background: #ff8257;
+    transform:translatey(-2px);
+    box-shadow: 0 8px 24px rgba(255,107,53,.4);
+}
+
+.btn-ghost {
+    background: transparent;
+    color: #fff !important;
+    font-family: 'Barlow Condebsed', sans-serif ;
+    font-weight: 700;
+    font-size: 1rem;
+    letter-spacing: .06em;
+    border: 2px solid rgba(255,255,255,.3);
+    border-radius: var(--radius);
+    padding: 10px 26px;
+    transition: border-color .2s, background .2s;
+}
+
+.btn-ghost:hover {
+    border-color: rgba(255,255,255,.7);
+    background: rgba(255,255,255,.05);
+}
+
+.btn-outline-ocean {
+    background: transparent;
+    color: var(--cyan) !important;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    font-size: .95rem;
+    letter-spacing: .05em;
+    border: 2px solid var(--cyan);
+    border-radius: var(--radius);
+    padding: 9px 22px;
+    transition: background .2s, color .2s;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.btn-outline-ocean:hover {
+    background: var(--cyan);
+    color: var(--navy) !important;
+}
+
+/* line 182 .btn-line
