@@ -1,6 +1,6 @@
 // Navbar scroll
 const nav = document.getElementById('mainNav');
-if (Nav) {
+if (nav) {
     window.addEventListener('scroll' , () => {
         nav.classList.toggle('scrolled', window.scrollY > 40);
     });

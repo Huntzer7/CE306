@@ -222,7 +222,7 @@ a {text-decoration: none}
 .hero-body {
     font-size: 1rem;
     color: var(--text-body);
-    line-height: 460px;
+    line-height: 1.5;
     margin-bottom: 36px;
 }
 
