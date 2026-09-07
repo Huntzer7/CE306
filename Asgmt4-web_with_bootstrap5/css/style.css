@@ -102,8 +102,7 @@ a {text-decoration: none}
 .btn-line {
     background: #06c755;
     color: #fff !important;
-    font-family: 700;
-    font-size: 95rem;
+    font-size: 30px;
     letter-spacing: .04em;
     border: none;
     border-radius: var(--radius);
