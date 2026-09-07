@@ -161,7 +161,11 @@ a {text-decoration: none}
 .hero-water-bg {
     position: absolute;
     inset: 0;
-    background: linear-gradient(160deg, #071525 0%, var(--navy) 50%, #0a2a48 100%);
+    background: linear-gradient(160deg, rgba(7, 21, 37, 0.75), rgba(7, 21,37, 0.85)),
+    url('https://www.lassdive.com/clients/lassdive/lassdive/activitat/images/858.webp');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     overflow: hidden;
 }
 
@@ -263,18 +267,6 @@ a {text-decoration: none}
     color: var(--text-body);
 }
 
-/* Slash */
-.hero-slash {
-    position: ansolute;
-    bottom: -1px;
-    left: 0;
-    right: 0;
-    height: 80px;
-    background: var(--navy);
-    clip-path: polygon(0 100%,100% 100%,100% 0);
-    z-index: 3;
-}
-
 /* Page Hero (inner pages)*/
 .page-hero {
     background: linear-gradient(160deg, #071525 0%, var(--navy) 100%);
@@ -357,9 +349,12 @@ a {text-decoration: none}
     gap: 16px;
 }
 
-.service-visual--blue { background: linear-gradient(135deg, #0a2240 0%, #0e3d6b 100%);}
-.service-visual--cyan { background: linear-gradient(135deg, #043d50 0%, #006a85 100%);}
-.service-visual--dark { background: linear-gradient(135deg, #0c1a2e 0%, #1a2e4a 100%);}
+.service-visual--blue { background: linear-gradient(135deg, rgba(10, 34, 64, 0.7) 0%, rgba(3, 61, 107, 0.8) 100%),
+    url('https://as1.ftcdn.net/v2/jpg/20/72/91/80/1000_F_2072918018_Sgu0GPHtJRPZTjXcOqlFxMb7Fi9EFgsR.jpg') no-repeat center / cover;}
+.service-visual--cyan { background: linear-gradient(135deg,  rgba(10, 34, 64, 0.7) 0%, rgba(3, 61, 107, 0.8) 100%),
+    url('https://as2.ftcdn.net/v2/jpg/20/21/79/95/1000_F_2021799531_MYg1g9ilxGepbGl0cYhwEL44IdkNCsiS.jpg') no-repeat center / cover;}
+.service-visual--dark { background: linear-gradient(135deg,  rgba(10, 34, 64, 0.7) 0%, rgba(3, 61, 107, 0.8) 100%),
+    url('https://as1.ftcdn.net/v2/jpg/03/62/55/18/1000_F_362551851_j6cWy1q54C4wC2cwqaOfhIqu6V1YbPyB.jpg') no-repeat center / cover;}
 .service-visual--orange { background: linear-gradient(135deg, #3a1a08 0%, #6b2e0e 100%);}
 
 .sv-icon {
