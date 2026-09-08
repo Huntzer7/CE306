@@ -491,7 +491,7 @@
 
     <!-- Script -->
     <script>
-    "use strict";
+        "use strict";
 
         let WORDS = [];
 
@@ -506,7 +506,7 @@
                 WORDS = await response.json();
 
                 startBtn.textContent = '▶ เริ่มเล่น!';
-                startBtn.disabled =false;
+                startBtn.disabled = false;
             } catch (error) {
                 console.error("เกิดข้อผิดพลาดในการโหลดคำศัพท์:", error);
                 startBtn.textContent = '❌ โหลดคำศัพท์ล้มเหลว';
@@ -518,15 +518,15 @@
 
         // Difficult
         const DIFF = {
-            easy: { speedMin:22, speedMax:30, spawnMs:4500, maxOnScreen:3, waveSz:6},
-            normal: { speedMin:38, speedMax:50, spawnMs:3000, maxOnScreen:4, waveSz:8},
-            hard: { speedMin:58, speedMax:75, spawnMs:2000, maxOnScreen:5, waveSz:10},
+            easy: { speedMin: 22, speedMax: 30, spawnMs: 4500, maxOnScreen: 3, waveSz: 6 },
+            normal: { speedMin: 38, speedMax: 50, spawnMs: 3000, maxOnScreen: 4, waveSz: 8 },
+            hard: { speedMin: 58, speedMax: 75, spawnMs: 2000, maxOnScreen: 5, waveSz: 10 },
         };
 
         // state
         let diff = 'easy';
         let gameRunning = false;
-        let hp,score,wave, kills, waveKills, waveTarget, inWaveClear;
+        let hp, score, wave, kills, waveKills, waveTarget, inWaveClear;
         let zombies = [];
         let spawnTimer = null;
         let rafId = null;
@@ -552,7 +552,7 @@
         //Difficulty UI หน้าต่างเลือกระดับความยาก
         function selectDiff(d) {
             diff = d;
-            ['easy','normal','hard'].forEach(k => {
+            ['easy', 'normal', 'hard'].forEach(k => {
                 const btn = document.getElementById('btn-' + k);
                 btn.classList.toggle('sel', k === d);
                 btn.setAttribute('aria-pressed', k === d ? 'true' : 'false');
@@ -572,7 +572,7 @@
         // start
         function startGame() {
             startScreen.classList.add('hidden');
-            hp = 3; score = 0; wave=1; kills = 0;
+            hp = 3; score = 0; wave = 1; kills = 0;
             waveKills = 0; inWaveClear = false;
             zombies = [];
             refillpool();
@@ -606,10 +606,10 @@
             spawnTimer = setInterval(() => {
                 if (!gameRunning || inWaveClear) return;
                 const alive = zombies.filter(z => !z.killed).length;
-                if (alive < cfg.maxOnScreen + Math.floor((wave - 1)/ 2)) {
+                if (alive < cfg.maxOnScreen + Math.floor((wave - 1) / 2)) {
                     spawnZombie();
                 }
-            }, Math.max(cfg.spawnMs - (wave -1) * 150, 800));
+            }, Math.max(cfg.spawnMs - (wave - 1) * 150, 800));
             startLoop();
         }
 
@@ -623,7 +623,7 @@
             if (!gameRunning || inWaveClear) return;
             const word = pickWord();
             const cfg = DIFF[diff];
-            const speed = cfg.speedMin + Math.random() * (cfg.speedMax - cfg.speedMin) + (wave - 1) *3;
+            const speed = cfg.speedMin + Math.random() * (cfg.speedMax - cfg.speedMin) + (wave - 1) * 3;
 
             const el = document.createElement('div');
             el.className = 'zombie';
@@ -641,7 +641,7 @@
             el.style.left = startX + 'px';
             gameArea.appendChild(el);
 
-            const z = {el, word, x: startX, speed, killed: false};
+            const z = { el, word, x: startX, speed, killed: false };
             zombies.push(z);
             return z;
         }
@@ -654,7 +654,7 @@
         }
 
         function stopLoop() {
-            if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null;}
+            if (rafId !== null) { cancelAnimationFrame(rafId); rafId = null; }
         }
 
         function tick(ts) {
@@ -683,18 +683,18 @@
             updateHearts();
             triggerDamageFlash();
             triggerPlayerBitten();
-            if (hp <= 0) { endGame(); return;}
+            if (hp <= 0) { endGame(); return; }
         }
 
         // input
         inputEl.addEventListener('input', onInput);
         inputEl.addEventListener('keydown', e => {
-            if (e.key === 'Enter') { e.preventDefault(); submitWord();}
-            if (e.key === 'Escape') { inputEl.value = ''; refreshAllProgress();}
+            if (e.key === 'Enter') { e.preventDefault(); submitWord(); }
+            if (e.key === 'Escape') { inputEl.value = ''; refreshAllProgress(); }
         });
 
         function onInput() {
-            if (!gameRunning ||inWaveClear) return;
+            if (!gameRunning || inWaveClear) return;
             refreshAllProgress();
             const typed = inputEl.value.trim().toLowerCase();
             const match = findClosetMatch(typed);
@@ -718,7 +718,7 @@
         function findClosetMatch(typed) {
             let best = null;
             for (const z of zombies) {
-                if(z.killed) continue;
+                if (z.killed) continue;
                 if (z.word.en.toLowerCase() === typed) {
                     if (!best || z.x < best.x) best = z;
                 }
@@ -748,7 +748,102 @@
             }
         }
 
-        // kill zombie 668
+        // kill zombie
+        function killZombie(z) {
+            z.killed = true;
+            const pts = 50 + wave * 10;
+            score += pts;
+            kills++;
+            wavekills++;
+            updateHUD();
+            inputEl.value = '';
+            refreshAllProgress();
+
+            // score pop คะแนนเด้งตอนฆ่าซอมบี้
+            const pop = document.createElement('div');
+            pop.className = 'score-pop';
+            pop.textContent = '+' + pts;
+            pop.style.left = Math.max(20, z.x) + 'px';
+            pop.style.bottom = '80px';
+            gameArea.appendChild(pop);
+            setTimeout(() => pop.remove(), 950);
+
+            // Animation ตอนตาย
+            z.el.classList.add('killing');
+            setTimeout(() => { if (z.el.parentNode) z.el.remove(); }, 420);
+
+            // เคลียร์ wave สำเร็จ
+            if (waveKills >= waveTarget && !inWaveClear) {
+                setTimeout(waveClear, 500);
+            }
+        }
+
+        // wave clear
+        function waveclear() {
+            if (!gameRunning) return;
+            inWaveClear = true;
+            clearSpawner();
+            stopLoop();
+            zombies.forEach(z => { if (!z.killed) { z.killed = true; z.el.remove(); } });
+            zombies = [];
+
+            waveClearMsg.textContent = `เยี่ยม! กำลังเริ่มเวฟ ${wave + 1}...`;
+            waveClearScrn.classList.romove('hidden');
+
+            setTimeout(() => {
+                waveClearScrn, classList.add('hidden');
+                wave++;
+                updateHUD();
+                inWaveClear = false;
+                beginWave();
+                inputEl.focus();
+            }, 2000);
+        }
+
+        // Game Over
+        function endGame() {
+            gameRunning = false;
+            clearSpawner();
+            stopLoop();
+            document.getElementById('find-score').textContent = score;
+            document.getElementById('find-wave').textContent = wave;
+            document.getElementById('find-kills').textContent = kills;
+            gameoverScreen.classList.remove('hidden');
+        }
+
+        // HUD helper
+        function updateHUD() {
+            scoreDisplay.textContent = score;
+            waveDisplay.textContent = wave;
+        }
+        function updateHearts() {
+            hearts.forEach((h, i) => {
+                h.classList.toggle('lost', i >= hp);
+            });
+        }
+
+        // visual feedback
+        function triggerDamgaeFlash() {
+            damageFlash.classList.add('active');
+            setTimeout(() => damageFlash.classList.remove('active'), 300);
+        }
+
+        function triggerPlayerBitten() {
+            const p = document.getElementById('player');
+            p.classList.remove('bitten');
+            void p.offsetWidth;
+            p.classList.add('bitten');
+            p.addEventListener('animationend', () => {
+                p.classList.remove('bitten');
+            }, { once: true });
+        }
+
+        // วิธีเล่น
+        function showHowTo() { document.getElementById('how-modal').classList.add('show'); }
+        function closeHowTo() { document.getElementById('how-modal').classList.remove('show'); }
+
+        // Focus input on game area click
+        gameArea.addEventListener('click', () => { if (gameRunning) inputEl.focus(); });
     </script>
 </body>
 
