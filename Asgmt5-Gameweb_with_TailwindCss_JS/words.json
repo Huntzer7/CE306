@@ -1,2987 +1,1958 @@
-{
-    "meta": {
-        "title": "Oxford A1-A2 Vocabulary",
-        "total": 489,
-        "levels": [
-            "A1",
-            "A2"
-        ],
-        "source": "Oxford Learner's Word Lists",
-        "categories": [
-            "adjective",
-            "animal",
-            "body",
-            "clothes",
-            "color",
-            "family",
-            "food",
-            "home",
-            "jobs",
-            "nature",
-            "number",
-            "place",
-            "school",
-            "sport",
-            "technology",
-            "time",
-            "transport",
-            "verb"
-        ],
-        "count_by_category": {
-            "food": 45,
-            "animal": 35,
-            "color": 13,
-            "body": 30,
-            "home": 30,
-            "school": 21,
-            "transport": 15,
-            "family": 18,
-            "place": 25,
-            "verb": 70,
-            "adjective": 54,
-            "number": 14,
-            "time": 38,
-            "nature": 17,
-            "clothes": 20,
-            "jobs": 16,
-            "technology": 13,
-            "sport": 15
-        }
+[
+    {
+        "th": "แอปเปิ้ล",
+        "en": "apple"
     },
-    "words": [
-        {
-            "th": "แอปเปิ้ล",
-            "en": "apple",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "กล้วย",
-            "en": "banana",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ขนมปัง",
-            "en": "bread",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "เค้ก",
-            "en": "cake",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "แครอท",
-            "en": "carrot",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ชีส",
-            "en": "cheese",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ไก่",
-            "en": "chicken",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ช็อกโกแลต",
-            "en": "chocolate",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "กาแฟ",
-            "en": "coffee",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "คุกกี้",
-            "en": "cookie",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ข้าวโพด",
-            "en": "corn",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ไข่",
-            "en": "egg",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ปลา",
-            "en": "fish",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ผลไม้",
-            "en": "fruit",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "องุ่น",
-            "en": "grape",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "น้ำผลไม้",
-            "en": "juice",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "มะนาว",
-            "en": "lemon",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ผักกาดหอม",
-            "en": "lettuce",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "เนื้อ",
-            "en": "meat",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "นม",
-            "en": "milk",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "เห็ด",
-            "en": "mushroom",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "หัวหอม",
-            "en": "onion",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "พาสต้า",
-            "en": "pasta",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "ลูกพีช",
-            "en": "peach",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "สับปะรด",
-            "en": "pineapple",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "พิซซ่า",
-            "en": "pizza",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "มันฝรั่ง",
-            "en": "potato",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ข้าว",
-            "en": "rice",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "สลัด",
-            "en": "salad",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "เกลือ",
-            "en": "salt",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "แซนวิช",
-            "en": "sandwich",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ซุป",
-            "en": "soup",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "น้ำตาล",
-            "en": "sugar",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ชา",
-            "en": "tea",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "มะเขือเทศ",
-            "en": "tomato",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "ผัก",
-            "en": "vegetable",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "น้ำ",
-            "en": "water",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "แตงโม",
-            "en": "watermelon",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "น้ำมัน",
-            "en": "oil",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "เนย",
-            "en": "butter",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "แยม",
-            "en": "jam",
-            "level": "A1",
-            "category": "food"
-        },
-        {
-            "th": "มะม่วง",
-            "en": "mango",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "สตรอเบอร์รี่",
-            "en": "strawberry",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "ถั่ว",
-            "en": "bean",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "ข้าวโอ๊ต",
-            "en": "oat",
-            "level": "A2",
-            "category": "food"
-        },
-        {
-            "th": "สุนัข",
-            "en": "dog",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "แมว",
-            "en": "cat",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "นก",
-            "en": "bird",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "ม้า",
-            "en": "horse",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "วัว",
-            "en": "cow",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "หมู",
-            "en": "pig",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "แกะ",
-            "en": "sheep",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "กระต่าย",
-            "en": "rabbit",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "ช้าง",
-            "en": "elephant",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "สิงโต",
-            "en": "lion",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "เสือ",
-            "en": "tiger",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "หมี",
-            "en": "bear",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "ลิง",
-            "en": "monkey",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "งู",
-            "en": "snake",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "จระเข้",
-            "en": "crocodile",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "เต่า",
-            "en": "turtle",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "กบ",
-            "en": "frog",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "ผีเสื้อ",
-            "en": "butterfly",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "มด",
-            "en": "ant",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "ผึ้ง",
-            "en": "bee",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "แมงมุม",
-            "en": "spider",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "ฉลาม",
-            "en": "shark",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "หมาป่า",
-            "en": "wolf",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "สุนัขจิ้งจอก",
-            "en": "fox",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "กวาง",
-            "en": "deer",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "แพะ",
-            "en": "goat",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "เป็ด",
-            "en": "duck",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "หงส์",
-            "en": "swan",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "นกแก้ว",
-            "en": "parrot",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "ปลาวาฬ",
-            "en": "whale",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "โลมา",
-            "en": "dolphin",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "สิงโตทะเล",
-            "en": "seal",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "ยีราฟ",
-            "en": "giraffe",
-            "level": "A1",
-            "category": "animal"
-        },
-        {
-            "th": "ม้าลาย",
-            "en": "zebra",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "หมูป่า",
-            "en": "boar",
-            "level": "A2",
-            "category": "animal"
-        },
-        {
-            "th": "แดง",
-            "en": "red",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "น้ำเงิน",
-            "en": "blue",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "เขียว",
-            "en": "green",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "เหลือง",
-            "en": "yellow",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ขาว",
-            "en": "white",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ดำ",
-            "en": "black",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ส้ม",
-            "en": "orange",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ม่วง",
-            "en": "purple",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ชมพู",
-            "en": "pink",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "น้ำตาล",
-            "en": "brown",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "เทา",
-            "en": "gray",
-            "level": "A1",
-            "category": "color"
-        },
-        {
-            "th": "ทอง",
-            "en": "gold",
-            "level": "A2",
-            "category": "color"
-        },
-        {
-            "th": "เงิน",
-            "en": "silver",
-            "level": "A2",
-            "category": "color"
-        },
-        {
-            "th": "ศีรษะ",
-            "en": "head",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ผม",
-            "en": "hair",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ตา",
-            "en": "eye",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "หู",
-            "en": "ear",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "จมูก",
-            "en": "nose",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ปาก",
-            "en": "mouth",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ฟัน",
-            "en": "tooth",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "คอ",
-            "en": "neck",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ไหล่",
-            "en": "shoulder",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "แขน",
-            "en": "arm",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ข้อศอก",
-            "en": "elbow",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "มือ",
-            "en": "hand",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "นิ้ว",
-            "en": "finger",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "หน้าอก",
-            "en": "chest",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "ท้อง",
-            "en": "stomach",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "หลัง",
-            "en": "back",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "ขา",
-            "en": "leg",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "เข่า",
-            "en": "knee",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "เท้า",
-            "en": "foot",
-            "level": "A1",
-            "category": "body"
-        },
-        {
-            "th": "นิ้วเท้า",
-            "en": "toe",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "หัวใจ",
-            "en": "heart",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "สมอง",
-            "en": "brain",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "กระดูก",
-            "en": "bone",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "ผิวหนัง",
-            "en": "skin",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "เลือด",
-            "en": "blood",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "ริมฝีปาก",
-            "en": "lip",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "แก้ม",
-            "en": "cheek",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "หน้าผาก",
-            "en": "forehead",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "คิ้ว",
-            "en": "eyebrow",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "ข้อมือ",
-            "en": "wrist",
-            "level": "A2",
-            "category": "body"
-        },
-        {
-            "th": "บ้าน",
-            "en": "house",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "อพาร์ตเมนต์",
-            "en": "apartment",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "ห้อง",
-            "en": "room",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ห้องนั่งเล่น",
-            "en": "living room",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ห้องนอน",
-            "en": "bedroom",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ห้องครัว",
-            "en": "kitchen",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ห้องน้ำ",
-            "en": "bathroom",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "สวน",
-            "en": "garden",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "โต๊ะ",
-            "en": "table",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "เก้าอี้",
-            "en": "chair",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "เตียง",
-            "en": "bed",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "โซฟา",
-            "en": "sofa",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ตู้",
-            "en": "cupboard",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "ชั้นวางของ",
-            "en": "shelf",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "หน้าต่าง",
-            "en": "window",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ประตู",
-            "en": "door",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "พื้น",
-            "en": "floor",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "เพดาน",
-            "en": "ceiling",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "กำแพง",
-            "en": "wall",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "บันได",
-            "en": "stairs",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "โคมไฟ",
-            "en": "lamp",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "กระจก",
-            "en": "mirror",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "พรม",
-            "en": "carpet",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "ผ้าม่าน",
-            "en": "curtain",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "ตู้เย็น",
-            "en": "fridge",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "เตาอบ",
-            "en": "oven",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "ไมโครเวฟ",
-            "en": "microwave",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "เครื่องซักผ้า",
-            "en": "washing machine",
-            "level": "A2",
-            "category": "home"
-        },
-        {
-            "th": "หมอน",
-            "en": "pillow",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "ผ้าห่ม",
-            "en": "blanket",
-            "level": "A1",
-            "category": "home"
-        },
-        {
-            "th": "โรงเรียน",
-            "en": "school",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ห้องเรียน",
-            "en": "classroom",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "นักเรียน",
-            "en": "student",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "หนังสือ",
-            "en": "book",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ปากกา",
-            "en": "pen",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ดินสอ",
-            "en": "pencil",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ยางลบ",
-            "en": "eraser",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ไม้บรรทัด",
-            "en": "ruler",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "กระดาน",
-            "en": "board",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "กรรไกร",
-            "en": "scissors",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "กาว",
-            "en": "glue",
-            "level": "A2",
-            "category": "school"
-        },
-        {
-            "th": "แผนที่",
-            "en": "map",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "การบ้าน",
-            "en": "homework",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "การสอบ",
-            "en": "exam",
-            "level": "A2",
-            "category": "school"
-        },
-        {
-            "th": "คำถาม",
-            "en": "question",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "คำตอบ",
-            "en": "answer",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "บทเรียน",
-            "en": "lesson",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ห้องสมุด",
-            "en": "library",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "สมุด",
-            "en": "notebook",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "ชั้นเรียน",
-            "en": "class",
-            "level": "A1",
-            "category": "school"
-        },
-        {
-            "th": "เกรด",
-            "en": "grade",
-            "level": "A2",
-            "category": "school"
-        },
-        {
-            "th": "รถ",
-            "en": "car",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "รถบัส",
-            "en": "bus",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "รถไฟ",
-            "en": "train",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "เครื่องบิน",
-            "en": "plane",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "เรือ",
-            "en": "boat",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "รถจักรยาน",
-            "en": "bicycle",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "รถจักรยานยนต์",
-            "en": "motorcycle",
-            "level": "A2",
-            "category": "transport"
-        },
-        {
-            "th": "รถแท็กซี่",
-            "en": "taxi",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "เฮลิคอปเตอร์",
-            "en": "helicopter",
-            "level": "A2",
-            "category": "transport"
-        },
-        {
-            "th": "รถไฟใต้ดิน",
-            "en": "subway",
-            "level": "A2",
-            "category": "transport"
-        },
-        {
-            "th": "สถานีรถไฟ",
-            "en": "station",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "สนามบิน",
-            "en": "airport",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "ถนน",
-            "en": "road",
-            "level": "A1",
-            "category": "transport"
-        },
-        {
-            "th": "สะพาน",
-            "en": "bridge",
-            "level": "A2",
-            "category": "transport"
-        },
-        {
-            "th": "ท่าเรือ",
-            "en": "port",
-            "level": "A2",
-            "category": "transport"
-        },
-        {
-            "th": "พ่อ",
-            "en": "father",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "แม่",
-            "en": "mother",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "พี่ชาย",
-            "en": "brother",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "พี่สาว",
-            "en": "sister",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "ปู่",
-            "en": "grandfather",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "ย่า",
-            "en": "grandmother",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "ลูกชาย",
-            "en": "son",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "ลูกสาว",
-            "en": "daughter",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "ลุง",
-            "en": "uncle",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "ป้า",
-            "en": "aunt",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "ลูกพี่ลูกน้อง",
-            "en": "cousin",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "สามี",
-            "en": "husband",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "ภรรยา",
-            "en": "wife",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "ครอบครัว",
-            "en": "family",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "เพื่อน",
-            "en": "friend",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "เพื่อนบ้าน",
-            "en": "neighbour",
-            "level": "A2",
-            "category": "family"
-        },
-        {
-            "th": "ทารก",
-            "en": "baby",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "เด็ก",
-            "en": "child",
-            "level": "A1",
-            "category": "family"
-        },
-        {
-            "th": "เมือง",
-            "en": "city",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "หมู่บ้าน",
-            "en": "village",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ประเทศ",
-            "en": "country",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ชายหาด",
-            "en": "beach",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ภูเขา",
-            "en": "mountain",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "แม่น้ำ",
-            "en": "river",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ทะเล",
-            "en": "sea",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ทะเลสาบ",
-            "en": "lake",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "ป่า",
-            "en": "forest",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "สวนสาธารณะ",
-            "en": "park",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "โรงพยาบาล",
-            "en": "hospital",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ร้านอาหาร",
-            "en": "restaurant",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ร้านค้า",
-            "en": "shop",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ตลาด",
-            "en": "market",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ธนาคาร",
-            "en": "bank",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "โรงแรม",
-            "en": "hotel",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "พิพิธภัณฑ์",
-            "en": "museum",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "โรงภาพยนตร์",
-            "en": "cinema",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "สระว่ายน้ำ",
-            "en": "swimming pool",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "ไปรษณีย์",
-            "en": "post office",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "ร้านขายยา",
-            "en": "pharmacy",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "สวนสัตว์",
-            "en": "zoo",
-            "level": "A1",
-            "category": "place"
-        },
-        {
-            "th": "ทุ่งนา",
-            "en": "field",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "ทะเลทราย",
-            "en": "desert",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "เกาะ",
-            "en": "island",
-            "level": "A2",
-            "category": "place"
-        },
-        {
-            "th": "วิ่ง",
-            "en": "run",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เดิน",
-            "en": "walk",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "กระโดด",
-            "en": "jump",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ว่ายน้ำ",
-            "en": "swim",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "บิน",
-            "en": "fly",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "กิน",
-            "en": "eat",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ดื่ม",
-            "en": "drink",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "นอน",
-            "en": "sleep",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "นั่ง",
-            "en": "sit",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ยืน",
-            "en": "stand",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "อ่าน",
-            "en": "read",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เขียน",
-            "en": "write",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "พูด",
-            "en": "speak",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ฟัง",
-            "en": "listen",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ดู",
-            "en": "watch",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เล่น",
-            "en": "play",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ร้องเพลง",
-            "en": "sing",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เต้น",
-            "en": "dance",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ทำอาหาร",
-            "en": "cook",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ซื้อ",
-            "en": "buy",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ขาย",
-            "en": "sell",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ช่วย",
-            "en": "help",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "รัก",
-            "en": "love",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ชอบ",
-            "en": "like",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เรียน",
-            "en": "study",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ทำงาน",
-            "en": "work",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เปิด",
-            "en": "open",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ปิด",
-            "en": "close",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ใส่",
-            "en": "wear",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "พัก",
-            "en": "rest",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ล้าง",
-            "en": "wash",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "สอน",
-            "en": "teach",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "เรียนรู้",
-            "en": "learn",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ขับรถ",
-            "en": "drive",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "หยุด",
-            "en": "stop",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เริ่ม",
-            "en": "start",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "จำ",
-            "en": "remember",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ลืม",
-            "en": "forget",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "รอ",
-            "en": "wait",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "โทรหา",
-            "en": "call",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ถาม",
-            "en": "ask",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ตอบ",
-            "en": "answer",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "พบ",
-            "en": "meet",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "มา",
-            "en": "come",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ไป",
-            "en": "go",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "กลับ",
-            "en": "return",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "เปลี่ยน",
-            "en": "change",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "เลือก",
-            "en": "choose",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "แบ่ง",
-            "en": "share",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ให้",
-            "en": "give",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "รับ",
-            "en": "take",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "นำ",
-            "en": "bring",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "วาด",
-            "en": "draw",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "โยน",
-            "en": "throw",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "จับ",
-            "en": "catch",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ต้องการ",
-            "en": "need",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "รู้สึก",
-            "en": "feel",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "คิด",
-            "en": "think",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "รู้",
-            "en": "know",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ส่ง",
-            "en": "send",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "รับ",
-            "en": "receive",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "เก็บ",
-            "en": "keep",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ใช้",
-            "en": "use",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "ลอง",
-            "en": "try",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "สร้าง",
-            "en": "build",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ตัด",
-            "en": "cut",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ซ่อม",
-            "en": "fix",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "หา",
-            "en": "find",
-            "level": "A1",
-            "category": "verb"
-        },
-        {
-            "th": "เปิด",
-            "en": "turn on",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ปิด",
-            "en": "turn off",
-            "level": "A2",
-            "category": "verb"
-        },
-        {
-            "th": "ร้อน",
-            "en": "hot",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เย็น",
-            "en": "cold",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "อุ่น",
-            "en": "warm",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ใหญ่",
-            "en": "big",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เล็ก",
-            "en": "small",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ยาว",
-            "en": "long",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "สั้น",
-            "en": "short",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "สูง",
-            "en": "tall",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ดี",
-            "en": "good",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "แย่",
-            "en": "bad",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ใหม่",
-            "en": "new",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เก่า",
-            "en": "old",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เร็ว",
-            "en": "fast",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ช้า",
-            "en": "slow",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "แข็งแรง",
-            "en": "strong",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "อ่อนแอ",
-            "en": "weak",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "หนัก",
-            "en": "heavy",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "เบา",
-            "en": "light",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "แข็ง",
-            "en": "hard",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "นิ่ม",
-            "en": "soft",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "สวย",
-            "en": "beautiful",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "มีความสุข",
-            "en": "happy",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เศร้า",
-            "en": "sad",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "โกรธ",
-            "en": "angry",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "กลัว",
-            "en": "afraid",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "หิว",
-            "en": "hungry",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "กระหาย",
-            "en": "thirsty",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "เหนื่อย",
-            "en": "tired",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ป่วย",
-            "en": "sick",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "สุขภาพดี",
-            "en": "healthy",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ฉลาด",
-            "en": "clever",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ใจดี",
-            "en": "kind",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "สนุก",
-            "en": "fun",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "น่าเบื่อ",
-            "en": "boring",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ง่าย",
-            "en": "easy",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ยาก",
-            "en": "difficult",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "สะอาด",
-            "en": "clean",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "สกปรก",
-            "en": "dirty",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "แห้ง",
-            "en": "dry",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "เปียก",
-            "en": "wet",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ถูก",
-            "en": "cheap",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "แพง",
-            "en": "expensive",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "เงียบ",
-            "en": "quiet",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ดัง",
-            "en": "loud",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "กว้าง",
-            "en": "wide",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "แคบ",
-            "en": "narrow",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ลึก",
-            "en": "deep",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "กลม",
-            "en": "round",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "ว่าง",
-            "en": "empty",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "เต็ม",
-            "en": "full",
-            "level": "A1",
-            "category": "adjective"
-        },
-        {
-            "th": "ปลอดภัย",
-            "en": "safe",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "อันตราย",
-            "en": "dangerous",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "น่ารัก",
-            "en": "cute",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "สำคัญ",
-            "en": "important",
-            "level": "A2",
-            "category": "adjective"
-        },
-        {
-            "th": "หนึ่ง",
-            "en": "one",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "สอง",
-            "en": "two",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "สาม",
-            "en": "three",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "สี่",
-            "en": "four",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "ห้า",
-            "en": "five",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "หก",
-            "en": "six",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "เจ็ด",
-            "en": "seven",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "แปด",
-            "en": "eight",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "เก้า",
-            "en": "nine",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "สิบ",
-            "en": "ten",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "ยี่สิบ",
-            "en": "twenty",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "ร้อย",
-            "en": "hundred",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "พัน",
-            "en": "thousand",
-            "level": "A2",
-            "category": "number"
-        },
-        {
-            "th": "ครึ่ง",
-            "en": "half",
-            "level": "A1",
-            "category": "number"
-        },
-        {
-            "th": "วันจันทร์",
-            "en": "Monday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันอังคาร",
-            "en": "Tuesday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันพุธ",
-            "en": "Wednesday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันพฤหัส",
-            "en": "Thursday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันศุกร์",
-            "en": "Friday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันเสาร์",
-            "en": "Saturday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันอาทิตย์",
-            "en": "Sunday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "มกราคม",
-            "en": "January",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "กุมภาพันธ์",
-            "en": "February",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "มีนาคม",
-            "en": "March",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "เมษายน",
-            "en": "April",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "พฤษภาคม",
-            "en": "May",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "มิถุนายน",
-            "en": "June",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "กรกฎาคม",
-            "en": "July",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "สิงหาคม",
-            "en": "August",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "กันยายน",
-            "en": "September",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ตุลาคม",
-            "en": "October",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "พฤศจิกายน",
-            "en": "November",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ธันวาคม",
-            "en": "December",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วัน",
-            "en": "day",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "สัปดาห์",
-            "en": "week",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "เดือน",
-            "en": "month",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ปี",
-            "en": "year",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "เวลา",
-            "en": "time",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ชั่วโมง",
-            "en": "hour",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "นาที",
-            "en": "minute",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วินาที",
-            "en": "second",
-            "level": "A2",
-            "category": "time"
-        },
-        {
-            "th": "เช้า",
-            "en": "morning",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "บ่าย",
-            "en": "afternoon",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "เย็น",
-            "en": "evening",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "คืน",
-            "en": "night",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "วันนี้",
-            "en": "today",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "พรุ่งนี้",
-            "en": "tomorrow",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "เมื่อวาน",
-            "en": "yesterday",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ฤดูใบไม้ผลิ",
-            "en": "spring",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ฤดูร้อน",
-            "en": "summer",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ฤดูใบไม้ร่วง",
-            "en": "autumn",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ฤดูหนาว",
-            "en": "winter",
-            "level": "A1",
-            "category": "time"
-        },
-        {
-            "th": "ดวงอาทิตย์",
-            "en": "sun",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ดวงจันทร์",
-            "en": "moon",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ดาว",
-            "en": "star",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ท้องฟ้า",
-            "en": "sky",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "เมฆ",
-            "en": "cloud",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ฝน",
-            "en": "rain",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "หิมะ",
-            "en": "snow",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ลม",
-            "en": "wind",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ดอกไม้",
-            "en": "flower",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ต้นไม้",
-            "en": "tree",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "หญ้า",
-            "en": "grass",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ใบไม้",
-            "en": "leaf",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "ทราย",
-            "en": "sand",
-            "level": "A2",
-            "category": "nature"
-        },
-        {
-            "th": "หิน",
-            "en": "stone",
-            "level": "A2",
-            "category": "nature"
-        },
-        {
-            "th": "รุ้ง",
-            "en": "rainbow",
-            "level": "A2",
-            "category": "nature"
-        },
-        {
-            "th": "พายุ",
-            "en": "storm",
-            "level": "A2",
-            "category": "nature"
-        },
-        {
-            "th": "ไฟ",
-            "en": "fire",
-            "level": "A1",
-            "category": "nature"
-        },
-        {
-            "th": "เสื้อ",
-            "en": "shirt",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "กางเกง",
-            "en": "trousers",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "กระโปรง",
-            "en": "skirt",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "ชุดเดรส",
-            "en": "dress",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "รองเท้า",
-            "en": "shoe",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "ถุงเท้า",
-            "en": "sock",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "เสื้อโค้ท",
-            "en": "coat",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "หมวก",
-            "en": "hat",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "ถุงมือ",
-            "en": "glove",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "ผ้าพันคอ",
-            "en": "scarf",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "เข็มขัด",
-            "en": "belt",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "แจ็คเก็ต",
-            "en": "jacket",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "เสื้อสเวตเตอร์",
-            "en": "sweater",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "แว่นตา",
-            "en": "glasses",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "นาฬิกา",
-            "en": "watch",
-            "level": "A1",
-            "category": "clothes"
-        },
-        {
-            "th": "แหวน",
-            "en": "ring",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "สร้อยคอ",
-            "en": "necklace",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "ต่างหู",
-            "en": "earring",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "รองเท้าผ้าใบ",
-            "en": "sneaker",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "ผ้าเช็ดหน้า",
-            "en": "handkerchief",
-            "level": "A2",
-            "category": "clothes"
-        },
-        {
-            "th": "หมอ",
-            "en": "doctor",
-            "level": "A1",
-            "category": "jobs"
-        },
-        {
-            "th": "พยาบาล",
-            "en": "nurse",
-            "level": "A1",
-            "category": "jobs"
-        },
-        {
-            "th": "ตำรวจ",
-            "en": "police",
-            "level": "A1",
-            "category": "jobs"
-        },
-        {
-            "th": "นักดับเพลิง",
-            "en": "firefighter",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "พ่อครัว",
-            "en": "cook",
-            "level": "A1",
-            "category": "jobs"
-        },
-        {
-            "th": "คนขับรถ",
-            "en": "driver",
-            "level": "A1",
-            "category": "jobs"
-        },
-        {
-            "th": "วิศวกร",
-            "en": "engineer",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "นักร้อง",
-            "en": "singer",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "นักแสดง",
-            "en": "actor",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "ทหาร",
-            "en": "soldier",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "เกษตรกร",
-            "en": "farmer",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "นักกีฬา",
-            "en": "athlete",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "ทนาย",
-            "en": "lawyer",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "นักดนตรี",
-            "en": "musician",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "ช่างไม้",
-            "en": "carpenter",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "พนักงานขาย",
-            "en": "salesperson",
-            "level": "A2",
-            "category": "jobs"
-        },
-        {
-            "th": "โทรศัพท์",
-            "en": "phone",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "โทรทัศน์",
-            "en": "television",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "วิทยุ",
-            "en": "radio",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "กล้องถ่ายรูป",
-            "en": "camera",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "อินเทอร์เน็ต",
-            "en": "internet",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "อีเมล",
-            "en": "email",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "หน้าจอ",
-            "en": "screen",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "แป้นพิมพ์",
-            "en": "keyboard",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "เมาส์",
-            "en": "mouse",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "เครื่องพิมพ์",
-            "en": "printer",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "แท็บเล็ต",
-            "en": "tablet",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "เว็บไซต์",
-            "en": "website",
-            "level": "A2",
-            "category": "technology"
-        },
-        {
-            "th": "วิดีโอ",
-            "en": "video",
-            "level": "A1",
-            "category": "technology"
-        },
-        {
-            "th": "ฟุตบอล",
-            "en": "football",
-            "level": "A1",
-            "category": "sport"
-        },
-        {
-            "th": "บาสเก็ตบอล",
-            "en": "basketball",
-            "level": "A1",
-            "category": "sport"
-        },
-        {
-            "th": "เทนนิส",
-            "en": "tennis",
-            "level": "A1",
-            "category": "sport"
-        },
-        {
-            "th": "ปั่นจักรยาน",
-            "en": "cycling",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "กอล์ฟ",
-            "en": "golf",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "มวย",
-            "en": "boxing",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "สกี",
-            "en": "skiing",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "ลูกบอล",
-            "en": "ball",
-            "level": "A1",
-            "category": "sport"
-        },
-        {
-            "th": "ทีม",
-            "en": "team",
-            "level": "A1",
-            "category": "sport"
-        },
-        {
-            "th": "การแข่งขัน",
-            "en": "match",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "ผู้ชนะ",
-            "en": "winner",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "คะแนน",
-            "en": "score",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "โค้ช",
-            "en": "coach",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "สนามกีฬา",
-            "en": "stadium",
-            "level": "A2",
-            "category": "sport"
-        },
-        {
-            "th": "รางวัล",
-            "en": "prize",
-            "level": "A2",
-            "category": "sport"
-        }
-    ]
-}
+    {
+        "th": "กล้วย",
+        "en": "banana"
+    },
+    {
+        "th": "ขนมปัง",
+        "en": "bread"
+    },
+    {
+        "th": "เค้ก",
+        "en": "cake"
+    },
+    {
+        "th": "แครอท",
+        "en": "carrot"
+    },
+    {
+        "th": "ชีส",
+        "en": "cheese"
+    },
+    {
+        "th": "ไก่",
+        "en": "chicken"
+    },
+    {
+        "th": "ช็อกโกแลต",
+        "en": "chocolate"
+    },
+    {
+        "th": "กาแฟ",
+        "en": "coffee"
+    },
+    {
+        "th": "คุกกี้",
+        "en": "cookie"
+    },
+    {
+        "th": "ข้าวโพด",
+        "en": "corn"
+    },
+    {
+        "th": "ไข่",
+        "en": "egg"
+    },
+    {
+        "th": "ปลา",
+        "en": "fish"
+    },
+    {
+        "th": "ผลไม้",
+        "en": "fruit"
+    },
+    {
+        "th": "องุ่น",
+        "en": "grape"
+    },
+    {
+        "th": "น้ำผลไม้",
+        "en": "juice"
+    },
+    {
+        "th": "มะนาว",
+        "en": "lemon"
+    },
+    {
+        "th": "ผักกาดหอม",
+        "en": "lettuce"
+    },
+    {
+        "th": "เนื้อ",
+        "en": "meat"
+    },
+    {
+        "th": "นม",
+        "en": "milk"
+    },
+    {
+        "th": "เห็ด",
+        "en": "mushroom"
+    },
+    {
+        "th": "หัวหอม",
+        "en": "onion"
+    },
+    {
+        "th": "พาสต้า",
+        "en": "pasta"
+    },
+    {
+        "th": "ลูกพีช",
+        "en": "peach"
+    },
+    {
+        "th": "สับปะรด",
+        "en": "pineapple"
+    },
+    {
+        "th": "พิซซ่า",
+        "en": "pizza"
+    },
+    {
+        "th": "มันฝรั่ง",
+        "en": "potato"
+    },
+    {
+        "th": "ข้าว",
+        "en": "rice"
+    },
+    {
+        "th": "สลัด",
+        "en": "salad"
+    },
+    {
+        "th": "เกลือ",
+        "en": "salt"
+    },
+    {
+        "th": "แซนวิช",
+        "en": "sandwich"
+    },
+    {
+        "th": "ซุป",
+        "en": "soup"
+    },
+    {
+        "th": "น้ำตาล",
+        "en": "sugar"
+    },
+    {
+        "th": "ชา",
+        "en": "tea"
+    },
+    {
+        "th": "มะเขือเทศ",
+        "en": "tomato"
+    },
+    {
+        "th": "ผัก",
+        "en": "vegetable"
+    },
+    {
+        "th": "น้ำ",
+        "en": "water"
+    },
+    {
+        "th": "แตงโม",
+        "en": "watermelon"
+    },
+    {
+        "th": "น้ำมัน",
+        "en": "oil"
+    },
+    {
+        "th": "เนย",
+        "en": "butter"
+    },
+    {
+        "th": "แยม",
+        "en": "jam"
+    },
+    {
+        "th": "มะม่วง",
+        "en": "mango"
+    },
+    {
+        "th": "สตรอเบอร์รี่",
+        "en": "strawberry"
+    },
+    {
+        "th": "ถั่ว",
+        "en": "bean"
+    },
+    {
+        "th": "ข้าวโอ๊ต",
+        "en": "oat"
+    },
+    {
+        "th": "สุนัข",
+        "en": "dog"
+    },
+    {
+        "th": "แมว",
+        "en": "cat"
+    },
+    {
+        "th": "นก",
+        "en": "bird"
+    },
+    {
+        "th": "ม้า",
+        "en": "horse"
+    },
+    {
+        "th": "วัว",
+        "en": "cow"
+    },
+    {
+        "th": "หมู",
+        "en": "pig"
+    },
+    {
+        "th": "แกะ",
+        "en": "sheep"
+    },
+    {
+        "th": "กระต่าย",
+        "en": "rabbit"
+    },
+    {
+        "th": "ช้าง",
+        "en": "elephant"
+    },
+    {
+        "th": "สิงโต",
+        "en": "lion"
+    },
+    {
+        "th": "เสือ",
+        "en": "tiger"
+    },
+    {
+        "th": "หมี",
+        "en": "bear"
+    },
+    {
+        "th": "ลิง",
+        "en": "monkey"
+    },
+    {
+        "th": "งู",
+        "en": "snake"
+    },
+    {
+        "th": "จระเข้",
+        "en": "crocodile"
+    },
+    {
+        "th": "เต่า",
+        "en": "turtle"
+    },
+    {
+        "th": "กบ",
+        "en": "frog"
+    },
+    {
+        "th": "ผีเสื้อ",
+        "en": "butterfly"
+    },
+    {
+        "th": "มด",
+        "en": "ant"
+    },
+    {
+        "th": "ผึ้ง",
+        "en": "bee"
+    },
+    {
+        "th": "แมงมุม",
+        "en": "spider"
+    },
+    {
+        "th": "ฉลาม",
+        "en": "shark"
+    },
+    {
+        "th": "หมาป่า",
+        "en": "wolf"
+    },
+    {
+        "th": "สุนัขจิ้งจอก",
+        "en": "fox"
+    },
+    {
+        "th": "กวาง",
+        "en": "deer"
+    },
+    {
+        "th": "แพะ",
+        "en": "goat"
+    },
+    {
+        "th": "เป็ด",
+        "en": "duck"
+    },
+    {
+        "th": "หงส์",
+        "en": "swan"
+    },
+    {
+        "th": "นกแก้ว",
+        "en": "parrot"
+    },
+    {
+        "th": "ปลาวาฬ",
+        "en": "whale"
+    },
+    {
+        "th": "โลมา",
+        "en": "dolphin"
+    },
+    {
+        "th": "สิงโตทะเล",
+        "en": "seal"
+    },
+    {
+        "th": "ยีราฟ",
+        "en": "giraffe"
+    },
+    {
+        "th": "ม้าลาย",
+        "en": "zebra"
+    },
+    {
+        "th": "หมูป่า",
+        "en": "boar"
+    },
+    {
+        "th": "แดง",
+        "en": "red"
+    },
+    {
+        "th": "น้ำเงิน",
+        "en": "blue"
+    },
+    {
+        "th": "เขียว",
+        "en": "green"
+    },
+    {
+        "th": "เหลือง",
+        "en": "yellow"
+    },
+    {
+        "th": "ขาว",
+        "en": "white"
+    },
+    {
+        "th": "ดำ",
+        "en": "black"
+    },
+    {
+        "th": "ส้ม",
+        "en": "orange"
+    },
+    {
+        "th": "ม่วง",
+        "en": "purple"
+    },
+    {
+        "th": "ชมพู",
+        "en": "pink"
+    },
+    {
+        "th": "น้ำตาล",
+        "en": "brown"
+    },
+    {
+        "th": "เทา",
+        "en": "gray"
+    },
+    {
+        "th": "ทอง",
+        "en": "gold"
+    },
+    {
+        "th": "เงิน",
+        "en": "silver"
+    },
+    {
+        "th": "ศีรษะ",
+        "en": "head"
+    },
+    {
+        "th": "ผม",
+        "en": "hair"
+    },
+    {
+        "th": "ตา",
+        "en": "eye"
+    },
+    {
+        "th": "หู",
+        "en": "ear"
+    },
+    {
+        "th": "จมูก",
+        "en": "nose"
+    },
+    {
+        "th": "ปาก",
+        "en": "mouth"
+    },
+    {
+        "th": "ฟัน",
+        "en": "tooth"
+    },
+    {
+        "th": "คอ",
+        "en": "neck"
+    },
+    {
+        "th": "ไหล่",
+        "en": "shoulder"
+    },
+    {
+        "th": "แขน",
+        "en": "arm"
+    },
+    {
+        "th": "ข้อศอก",
+        "en": "elbow"
+    },
+    {
+        "th": "มือ",
+        "en": "hand"
+    },
+    {
+        "th": "นิ้ว",
+        "en": "finger"
+    },
+    {
+        "th": "หน้าอก",
+        "en": "chest"
+    },
+    {
+        "th": "ท้อง",
+        "en": "stomach"
+    },
+    {
+        "th": "หลัง",
+        "en": "back"
+    },
+    {
+        "th": "ขา",
+        "en": "leg"
+    },
+    {
+        "th": "เข่า",
+        "en": "knee"
+    },
+    {
+        "th": "เท้า",
+        "en": "foot"
+    },
+    {
+        "th": "นิ้วเท้า",
+        "en": "toe"
+    },
+    {
+        "th": "หัวใจ",
+        "en": "heart"
+    },
+    {
+        "th": "สมอง",
+        "en": "brain"
+    },
+    {
+        "th": "กระดูก",
+        "en": "bone"
+    },
+    {
+        "th": "ผิวหนัง",
+        "en": "skin"
+    },
+    {
+        "th": "เลือด",
+        "en": "blood"
+    },
+    {
+        "th": "ริมฝีปาก",
+        "en": "lip"
+    },
+    {
+        "th": "แก้ม",
+        "en": "cheek"
+    },
+    {
+        "th": "หน้าผาก",
+        "en": "forehead"
+    },
+    {
+        "th": "คิ้ว",
+        "en": "eyebrow"
+    },
+    {
+        "th": "ข้อมือ",
+        "en": "wrist"
+    },
+    {
+        "th": "บ้าน",
+        "en": "house"
+    },
+    {
+        "th": "อพาร์ตเมนต์",
+        "en": "apartment"
+    },
+    {
+        "th": "ห้อง",
+        "en": "room"
+    },
+    {
+        "th": "ห้องนั่งเล่น",
+        "en": "living room"
+    },
+    {
+        "th": "ห้องนอน",
+        "en": "bedroom"
+    },
+    {
+        "th": "ห้องครัว",
+        "en": "kitchen"
+    },
+    {
+        "th": "ห้องน้ำ",
+        "en": "bathroom"
+    },
+    {
+        "th": "สวน",
+        "en": "garden"
+    },
+    {
+        "th": "โต๊ะ",
+        "en": "table"
+    },
+    {
+        "th": "เก้าอี้",
+        "en": "chair"
+    },
+    {
+        "th": "เตียง",
+        "en": "bed"
+    },
+    {
+        "th": "โซฟา",
+        "en": "sofa"
+    },
+    {
+        "th": "ตู้",
+        "en": "cupboard"
+    },
+    {
+        "th": "ชั้นวางของ",
+        "en": "shelf"
+    },
+    {
+        "th": "หน้าต่าง",
+        "en": "window"
+    },
+    {
+        "th": "ประตู",
+        "en": "door"
+    },
+    {
+        "th": "พื้น",
+        "en": "floor"
+    },
+    {
+        "th": "เพดาน",
+        "en": "ceiling"
+    },
+    {
+        "th": "กำแพง",
+        "en": "wall"
+    },
+    {
+        "th": "บันได",
+        "en": "stairs"
+    },
+    {
+        "th": "โคมไฟ",
+        "en": "lamp"
+    },
+    {
+        "th": "กระจก",
+        "en": "mirror"
+    },
+    {
+        "th": "พรม",
+        "en": "carpet"
+    },
+    {
+        "th": "ผ้าม่าน",
+        "en": "curtain"
+    },
+    {
+        "th": "ตู้เย็น",
+        "en": "fridge"
+    },
+    {
+        "th": "เตาอบ",
+        "en": "oven"
+    },
+    {
+        "th": "ไมโครเวฟ",
+        "en": "microwave"
+    },
+    {
+        "th": "เครื่องซักผ้า",
+        "en": "washing machine"
+    },
+    {
+        "th": "หมอน",
+        "en": "pillow"
+    },
+    {
+        "th": "ผ้าห่ม",
+        "en": "blanket"
+    },
+    {
+        "th": "โรงเรียน",
+        "en": "school"
+    },
+    {
+        "th": "ห้องเรียน",
+        "en": "classroom"
+    },
+    {
+        "th": "นักเรียน",
+        "en": "student"
+    },
+    {
+        "th": "หนังสือ",
+        "en": "book"
+    },
+    {
+        "th": "ปากกา",
+        "en": "pen"
+    },
+    {
+        "th": "ดินสอ",
+        "en": "pencil"
+    },
+    {
+        "th": "ยางลบ",
+        "en": "eraser"
+    },
+    {
+        "th": "ไม้บรรทัด",
+        "en": "ruler"
+    },
+    {
+        "th": "กระดาน",
+        "en": "board"
+    },
+    {
+        "th": "กรรไกร",
+        "en": "scissors"
+    },
+    {
+        "th": "กาว",
+        "en": "glue"
+    },
+    {
+        "th": "แผนที่",
+        "en": "map"
+    },
+    {
+        "th": "การบ้าน",
+        "en": "homework"
+    },
+    {
+        "th": "การสอบ",
+        "en": "exam"
+    },
+    {
+        "th": "คำถาม",
+        "en": "question"
+    },
+    {
+        "th": "คำตอบ",
+        "en": "answer"
+    },
+    {
+        "th": "บทเรียน",
+        "en": "lesson"
+    },
+    {
+        "th": "ห้องสมุด",
+        "en": "library"
+    },
+    {
+        "th": "สมุด",
+        "en": "notebook"
+    },
+    {
+        "th": "ชั้นเรียน",
+        "en": "class"
+    },
+    {
+        "th": "เกรด",
+        "en": "grade"
+    },
+    {
+        "th": "รถ",
+        "en": "car"
+    },
+    {
+        "th": "รถบัส",
+        "en": "bus"
+    },
+    {
+        "th": "รถไฟ",
+        "en": "train"
+    },
+    {
+        "th": "เครื่องบิน",
+        "en": "plane"
+    },
+    {
+        "th": "เรือ",
+        "en": "boat"
+    },
+    {
+        "th": "รถจักรยาน",
+        "en": "bicycle"
+    },
+    {
+        "th": "รถจักรยานยนต์",
+        "en": "motorcycle"
+    },
+    {
+        "th": "รถแท็กซี่",
+        "en": "taxi"
+    },
+    {
+        "th": "เฮลิคอปเตอร์",
+        "en": "helicopter"
+    },
+    {
+        "th": "รถไฟใต้ดิน",
+        "en": "subway"
+    },
+    {
+        "th": "สถานีรถไฟ",
+        "en": "station"
+    },
+    {
+        "th": "สนามบิน",
+        "en": "airport"
+    },
+    {
+        "th": "ถนน",
+        "en": "road"
+    },
+    {
+        "th": "สะพาน",
+        "en": "bridge"
+    },
+    {
+        "th": "ท่าเรือ",
+        "en": "port"
+    },
+    {
+        "th": "พ่อ",
+        "en": "father"
+    },
+    {
+        "th": "แม่",
+        "en": "mother"
+    },
+    {
+        "th": "พี่ชาย",
+        "en": "brother"
+    },
+    {
+        "th": "พี่สาว",
+        "en": "sister"
+    },
+    {
+        "th": "ปู่",
+        "en": "grandfather"
+    },
+    {
+        "th": "ย่า",
+        "en": "grandmother"
+    },
+    {
+        "th": "ลูกชาย",
+        "en": "son"
+    },
+    {
+        "th": "ลูกสาว",
+        "en": "daughter"
+    },
+    {
+        "th": "ลุง",
+        "en": "uncle"
+    },
+    {
+        "th": "ป้า",
+        "en": "aunt"
+    },
+    {
+        "th": "ลูกพี่ลูกน้อง",
+        "en": "cousin"
+    },
+    {
+        "th": "สามี",
+        "en": "husband"
+    },
+    {
+        "th": "ภรรยา",
+        "en": "wife"
+    },
+    {
+        "th": "ครอบครัว",
+        "en": "family"
+    },
+    {
+        "th": "เพื่อน",
+        "en": "friend"
+    },
+    {
+        "th": "เพื่อนบ้าน",
+        "en": "neighbour"
+    },
+    {
+        "th": "ทารก",
+        "en": "baby"
+    },
+    {
+        "th": "เด็ก",
+        "en": "child"
+    },
+    {
+        "th": "เมือง",
+        "en": "city"
+    },
+    {
+        "th": "หมู่บ้าน",
+        "en": "village"
+    },
+    {
+        "th": "ประเทศ",
+        "en": "country"
+    },
+    {
+        "th": "ชายหาด",
+        "en": "beach"
+    },
+    {
+        "th": "ภูเขา",
+        "en": "mountain"
+    },
+    {
+        "th": "แม่น้ำ",
+        "en": "river"
+    },
+    {
+        "th": "ทะเล",
+        "en": "sea"
+    },
+    {
+        "th": "ทะเลสาบ",
+        "en": "lake"
+    },
+    {
+        "th": "ป่า",
+        "en": "forest"
+    },
+    {
+        "th": "สวนสาธารณะ",
+        "en": "park"
+    },
+    {
+        "th": "โรงพยาบาล",
+        "en": "hospital"
+    },
+    {
+        "th": "ร้านอาหาร",
+        "en": "restaurant"
+    },
+    {
+        "th": "ร้านค้า",
+        "en": "shop"
+    },
+    {
+        "th": "ตลาด",
+        "en": "market"
+    },
+    {
+        "th": "ธนาคาร",
+        "en": "bank"
+    },
+    {
+        "th": "โรงแรม",
+        "en": "hotel"
+    },
+    {
+        "th": "พิพิธภัณฑ์",
+        "en": "museum"
+    },
+    {
+        "th": "โรงภาพยนตร์",
+        "en": "cinema"
+    },
+    {
+        "th": "สระว่ายน้ำ",
+        "en": "swimming pool"
+    },
+    {
+        "th": "ไปรษณีย์",
+        "en": "post office"
+    },
+    {
+        "th": "ร้านขายยา",
+        "en": "pharmacy"
+    },
+    {
+        "th": "สวนสัตว์",
+        "en": "zoo"
+    },
+    {
+        "th": "ทุ่งนา",
+        "en": "field"
+    },
+    {
+        "th": "ทะเลทราย",
+        "en": "desert"
+    },
+    {
+        "th": "เกาะ",
+        "en": "island"
+    },
+    {
+        "th": "วิ่ง",
+        "en": "run"
+    },
+    {
+        "th": "เดิน",
+        "en": "walk"
+    },
+    {
+        "th": "กระโดด",
+        "en": "jump"
+    },
+    {
+        "th": "ว่ายน้ำ",
+        "en": "swim"
+    },
+    {
+        "th": "บิน",
+        "en": "fly"
+    },
+    {
+        "th": "กิน",
+        "en": "eat"
+    },
+    {
+        "th": "ดื่ม",
+        "en": "drink"
+    },
+    {
+        "th": "นอน",
+        "en": "sleep"
+    },
+    {
+        "th": "นั่ง",
+        "en": "sit"
+    },
+    {
+        "th": "ยืน",
+        "en": "stand"
+    },
+    {
+        "th": "อ่าน",
+        "en": "read"
+    },
+    {
+        "th": "เขียน",
+        "en": "write"
+    },
+    {
+        "th": "พูด",
+        "en": "speak"
+    },
+    {
+        "th": "ฟัง",
+        "en": "listen"
+    },
+    {
+        "th": "ดู",
+        "en": "watch"
+    },
+    {
+        "th": "เล่น",
+        "en": "play"
+    },
+    {
+        "th": "ร้องเพลง",
+        "en": "sing"
+    },
+    {
+        "th": "เต้น",
+        "en": "dance"
+    },
+    {
+        "th": "ทำอาหาร",
+        "en": "cook"
+    },
+    {
+        "th": "ซื้อ",
+        "en": "buy"
+    },
+    {
+        "th": "ขาย",
+        "en": "sell"
+    },
+    {
+        "th": "ช่วย",
+        "en": "help"
+    },
+    {
+        "th": "รัก",
+        "en": "love"
+    },
+    {
+        "th": "ชอบ",
+        "en": "like"
+    },
+    {
+        "th": "เรียน",
+        "en": "study"
+    },
+    {
+        "th": "ทำงาน",
+        "en": "work"
+    },
+    {
+        "th": "เปิด",
+        "en": "open"
+    },
+    {
+        "th": "ปิด",
+        "en": "close"
+    },
+    {
+        "th": "ใส่",
+        "en": "wear"
+    },
+    {
+        "th": "พัก",
+        "en": "rest"
+    },
+    {
+        "th": "ล้าง",
+        "en": "wash"
+    },
+    {
+        "th": "สอน",
+        "en": "teach"
+    },
+    {
+        "th": "เรียนรู้",
+        "en": "learn"
+    },
+    {
+        "th": "ขับรถ",
+        "en": "drive"
+    },
+    {
+        "th": "หยุด",
+        "en": "stop"
+    },
+    {
+        "th": "เริ่ม",
+        "en": "start"
+    },
+    {
+        "th": "จำ",
+        "en": "remember"
+    },
+    {
+        "th": "ลืม",
+        "en": "forget"
+    },
+    {
+        "th": "รอ",
+        "en": "wait"
+    },
+    {
+        "th": "โทรหา",
+        "en": "call"
+    },
+    {
+        "th": "ถาม",
+        "en": "ask"
+    },
+    {
+        "th": "ตอบ",
+        "en": "answer"
+    },
+    {
+        "th": "พบ",
+        "en": "meet"
+    },
+    {
+        "th": "มา",
+        "en": "come"
+    },
+    {
+        "th": "ไป",
+        "en": "go"
+    },
+    {
+        "th": "กลับ",
+        "en": "return"
+    },
+    {
+        "th": "เปลี่ยน",
+        "en": "change"
+    },
+    {
+        "th": "เลือก",
+        "en": "choose"
+    },
+    {
+        "th": "แบ่ง",
+        "en": "share"
+    },
+    {
+        "th": "ให้",
+        "en": "give"
+    },
+    {
+        "th": "รับ",
+        "en": "take"
+    },
+    {
+        "th": "นำ",
+        "en": "bring"
+    },
+    {
+        "th": "วาด",
+        "en": "draw"
+    },
+    {
+        "th": "โยน",
+        "en": "throw"
+    },
+    {
+        "th": "จับ",
+        "en": "catch"
+    },
+    {
+        "th": "ต้องการ",
+        "en": "need"
+    },
+    {
+        "th": "รู้สึก",
+        "en": "feel"
+    },
+    {
+        "th": "คิด",
+        "en": "think"
+    },
+    {
+        "th": "รู้",
+        "en": "know"
+    },
+    {
+        "th": "ส่ง",
+        "en": "send"
+    },
+    {
+        "th": "รับ",
+        "en": "receive"
+    },
+    {
+        "th": "เก็บ",
+        "en": "keep"
+    },
+    {
+        "th": "ใช้",
+        "en": "use"
+    },
+    {
+        "th": "ลอง",
+        "en": "try"
+    },
+    {
+        "th": "สร้าง",
+        "en": "build"
+    },
+    {
+        "th": "ตัด",
+        "en": "cut"
+    },
+    {
+        "th": "ซ่อม",
+        "en": "fix"
+    },
+    {
+        "th": "หา",
+        "en": "find"
+    },
+    {
+        "th": "เปิด",
+        "en": "turn on"
+    },
+    {
+        "th": "ปิด",
+        "en": "turn off"
+    },
+    {
+        "th": "ร้อน",
+        "en": "hot"
+    },
+    {
+        "th": "เย็น",
+        "en": "cold"
+    },
+    {
+        "th": "อุ่น",
+        "en": "warm"
+    },
+    {
+        "th": "ใหญ่",
+        "en": "big"
+    },
+    {
+        "th": "เล็ก",
+        "en": "small"
+    },
+    {
+        "th": "ยาว",
+        "en": "long"
+    },
+    {
+        "th": "สั้น",
+        "en": "short"
+    },
+    {
+        "th": "สูง",
+        "en": "tall"
+    },
+    {
+        "th": "ดี",
+        "en": "good"
+    },
+    {
+        "th": "แย่",
+        "en": "bad"
+    },
+    {
+        "th": "ใหม่",
+        "en": "new"
+    },
+    {
+        "th": "เก่า",
+        "en": "old"
+    },
+    {
+        "th": "เร็ว",
+        "en": "fast"
+    },
+    {
+        "th": "ช้า",
+        "en": "slow"
+    },
+    {
+        "th": "แข็งแรง",
+        "en": "strong"
+    },
+    {
+        "th": "อ่อนแอ",
+        "en": "weak"
+    },
+    {
+        "th": "หนัก",
+        "en": "heavy"
+    },
+    {
+        "th": "เบา",
+        "en": "light"
+    },
+    {
+        "th": "แข็ง",
+        "en": "hard"
+    },
+    {
+        "th": "นิ่ม",
+        "en": "soft"
+    },
+    {
+        "th": "สวย",
+        "en": "beautiful"
+    },
+    {
+        "th": "มีความสุข",
+        "en": "happy"
+    },
+    {
+        "th": "เศร้า",
+        "en": "sad"
+    },
+    {
+        "th": "โกรธ",
+        "en": "angry"
+    },
+    {
+        "th": "กลัว",
+        "en": "afraid"
+    },
+    {
+        "th": "หิว",
+        "en": "hungry"
+    },
+    {
+        "th": "กระหาย",
+        "en": "thirsty"
+    },
+    {
+        "th": "เหนื่อย",
+        "en": "tired"
+    },
+    {
+        "th": "ป่วย",
+        "en": "sick"
+    },
+    {
+        "th": "สุขภาพดี",
+        "en": "healthy"
+    },
+    {
+        "th": "ฉลาด",
+        "en": "clever"
+    },
+    {
+        "th": "ใจดี",
+        "en": "kind"
+    },
+    {
+        "th": "สนุก",
+        "en": "fun"
+    },
+    {
+        "th": "น่าเบื่อ",
+        "en": "boring"
+    },
+    {
+        "th": "ง่าย",
+        "en": "easy"
+    },
+    {
+        "th": "ยาก",
+        "en": "difficult"
+    },
+    {
+        "th": "สะอาด",
+        "en": "clean"
+    },
+    {
+        "th": "สกปรก",
+        "en": "dirty"
+    },
+    {
+        "th": "แห้ง",
+        "en": "dry"
+    },
+    {
+        "th": "เปียก",
+        "en": "wet"
+    },
+    {
+        "th": "ถูก",
+        "en": "cheap"
+    },
+    {
+        "th": "แพง",
+        "en": "expensive"
+    },
+    {
+        "th": "เงียบ",
+        "en": "quiet"
+    },
+    {
+        "th": "ดัง",
+        "en": "loud"
+    },
+    {
+        "th": "กว้าง",
+        "en": "wide"
+    },
+    {
+        "th": "แคบ",
+        "en": "narrow"
+    },
+    {
+        "th": "ลึก",
+        "en": "deep"
+    },
+    {
+        "th": "กลม",
+        "en": "round"
+    },
+    {
+        "th": "ว่าง",
+        "en": "empty"
+    },
+    {
+        "th": "เต็ม",
+        "en": "full"
+    },
+    {
+        "th": "ปลอดภัย",
+        "en": "safe"
+    },
+    {
+        "th": "อันตราย",
+        "en": "dangerous"
+    },
+    {
+        "th": "น่ารัก",
+        "en": "cute"
+    },
+    {
+        "th": "สำคัญ",
+        "en": "important"
+    },
+    {
+        "th": "หนึ่ง",
+        "en": "one"
+    },
+    {
+        "th": "สอง",
+        "en": "two"
+    },
+    {
+        "th": "สาม",
+        "en": "three"
+    },
+    {
+        "th": "สี่",
+        "en": "four"
+    },
+    {
+        "th": "ห้า",
+        "en": "five"
+    },
+    {
+        "th": "หก",
+        "en": "six"
+    },
+    {
+        "th": "เจ็ด",
+        "en": "seven"
+    },
+    {
+        "th": "แปด",
+        "en": "eight"
+    },
+    {
+        "th": "เก้า",
+        "en": "nine"
+    },
+    {
+        "th": "สิบ",
+        "en": "ten"
+    },
+    {
+        "th": "ยี่สิบ",
+        "en": "twenty"
+    },
+    {
+        "th": "ร้อย",
+        "en": "hundred"
+    },
+    {
+        "th": "พัน",
+        "en": "thousand"
+    },
+    {
+        "th": "ครึ่ง",
+        "en": "half"
+    },
+    {
+        "th": "วันจันทร์",
+        "en": "Monday"
+    },
+    {
+        "th": "วันอังคาร",
+        "en": "Tuesday"
+    },
+    {
+        "th": "วันพุธ",
+        "en": "Wednesday"
+    },
+    {
+        "th": "วันพฤหัส",
+        "en": "Thursday"
+    },
+    {
+        "th": "วันศุกร์",
+        "en": "Friday"
+    },
+    {
+        "th": "วันเสาร์",
+        "en": "Saturday"
+    },
+    {
+        "th": "วันอาทิตย์",
+        "en": "Sunday"
+    },
+    {
+        "th": "มกราคม",
+        "en": "January"
+    },
+    {
+        "th": "กุมภาพันธ์",
+        "en": "February"
+    },
+    {
+        "th": "มีนาคม",
+        "en": "March"
+    },
+    {
+        "th": "เมษายน",
+        "en": "April"
+    },
+    {
+        "th": "พฤษภาคม",
+        "en": "May"
+    },
+    {
+        "th": "มิถุนายน",
+        "en": "June"
+    },
+    {
+        "th": "กรกฎาคม",
+        "en": "July"
+    },
+    {
+        "th": "สิงหาคม",
+        "en": "August"
+    },
+    {
+        "th": "กันยายน",
+        "en": "September"
+    },
+    {
+        "th": "ตุลาคม",
+        "en": "October"
+    },
+    {
+        "th": "พฤศจิกายน",
+        "en": "November"
+    },
+    {
+        "th": "ธันวาคม",
+        "en": "December"
+    },
+    {
+        "th": "วัน",
+        "en": "day"
+    },
+    {
+        "th": "สัปดาห์",
+        "en": "week"
+    },
+    {
+        "th": "เดือน",
+        "en": "month"
+    },
+    {
+        "th": "ปี",
+        "en": "year"
+    },
+    {
+        "th": "เวลา",
+        "en": "time"
+    },
+    {
+        "th": "ชั่วโมง",
+        "en": "hour"
+    },
+    {
+        "th": "นาที",
+        "en": "minute"
+    },
+    {
+        "th": "วินาที",
+        "en": "second"
+    },
+    {
+        "th": "เช้า",
+        "en": "morning"
+    },
+    {
+        "th": "บ่าย",
+        "en": "afternoon"
+    },
+    {
+        "th": "เย็น",
+        "en": "evening"
+    },
+    {
+        "th": "คืน",
+        "en": "night"
+    },
+    {
+        "th": "วันนี้",
+        "en": "today"
+    },
+    {
+        "th": "พรุ่งนี้",
+        "en": "tomorrow"
+    },
+    {
+        "th": "เมื่อวาน",
+        "en": "yesterday"
+    },
+    {
+        "th": "ฤดูใบไม้ผลิ",
+        "en": "spring"
+    },
+    {
+        "th": "ฤดูร้อน",
+        "en": "summer"
+    },
+    {
+        "th": "ฤดูใบไม้ร่วง",
+        "en": "autumn"
+    },
+    {
+        "th": "ฤดูหนาว",
+        "en": "winter"
+    },
+    {
+        "th": "ดวงอาทิตย์",
+        "en": "sun"
+    },
+    {
+        "th": "ดวงจันทร์",
+        "en": "moon"
+    },
+    {
+        "th": "ดาว",
+        "en": "star"
+    },
+    {
+        "th": "ท้องฟ้า",
+        "en": "sky"
+    },
+    {
+        "th": "เมฆ",
+        "en": "cloud"
+    },
+    {
+        "th": "ฝน",
+        "en": "rain"
+    },
+    {
+        "th": "หิมะ",
+        "en": "snow"
+    },
+    {
+        "th": "ลม",
+        "en": "wind"
+    },
+    {
+        "th": "ดอกไม้",
+        "en": "flower"
+    },
+    {
+        "th": "ต้นไม้",
+        "en": "tree"
+    },
+    {
+        "th": "หญ้า",
+        "en": "grass"
+    },
+    {
+        "th": "ใบไม้",
+        "en": "leaf"
+    },
+    {
+        "th": "ทราย",
+        "en": "sand"
+    },
+    {
+        "th": "หิน",
+        "en": "stone"
+    },
+    {
+        "th": "รุ้ง",
+        "en": "rainbow"
+    },
+    {
+        "th": "พายุ",
+        "en": "storm"
+    },
+    {
+        "th": "ไฟ",
+        "en": "fire"
+    },
+    {
+        "th": "เสื้อ",
+        "en": "shirt"
+    },
+    {
+        "th": "กางเกง",
+        "en": "trousers"
+    },
+    {
+        "th": "กระโปรง",
+        "en": "skirt"
+    },
+    {
+        "th": "ชุดเดรส",
+        "en": "dress"
+    },
+    {
+        "th": "รองเท้า",
+        "en": "shoe"
+    },
+    {
+        "th": "ถุงเท้า",
+        "en": "sock"
+    },
+    {
+        "th": "เสื้อโค้ท",
+        "en": "coat"
+    },
+    {
+        "th": "หมวก",
+        "en": "hat"
+    },
+    {
+        "th": "ถุงมือ",
+        "en": "glove"
+    },
+    {
+        "th": "ผ้าพันคอ",
+        "en": "scarf"
+    },
+    {
+        "th": "เข็มขัด",
+        "en": "belt"
+    },
+    {
+        "th": "แจ็คเก็ต",
+        "en": "jacket"
+    },
+    {
+        "th": "เสื้อสเวตเตอร์",
+        "en": "sweater"
+    },
+    {
+        "th": "แว่นตา",
+        "en": "glasses"
+    },
+    {
+        "th": "นาฬิกา",
+        "en": "watch"
+    },
+    {
+        "th": "แหวน",
+        "en": "ring"
+    },
+    {
+        "th": "สร้อยคอ",
+        "en": "necklace"
+    },
+    {
+        "th": "ต่างหู",
+        "en": "earring"
+    },
+    {
+        "th": "รองเท้าผ้าใบ",
+        "en": "sneaker"
+    },
+    {
+        "th": "ผ้าเช็ดหน้า",
+        "en": "handkerchief"
+    },
+    {
+        "th": "หมอ",
+        "en": "doctor"
+    },
+    {
+        "th": "พยาบาล",
+        "en": "nurse"
+    },
+    {
+        "th": "ตำรวจ",
+        "en": "police"
+    },
+    {
+        "th": "นักดับเพลิง",
+        "en": "firefighter"
+    },
+    {
+        "th": "พ่อครัว",
+        "en": "cook"
+    },
+    {
+        "th": "คนขับรถ",
+        "en": "driver"
+    },
+    {
+        "th": "วิศวกร",
+        "en": "engineer"
+    },
+    {
+        "th": "นักร้อง",
+        "en": "singer"
+    },
+    {
+        "th": "นักแสดง",
+        "en": "actor"
+    },
+    {
+        "th": "ทหาร",
+        "en": "soldier"
+    },
+    {
+        "th": "เกษตรกร",
+        "en": "farmer"
+    },
+    {
+        "th": "นักกีฬา",
+        "en": "athlete"
+    },
+    {
+        "th": "ทนาย",
+        "en": "lawyer"
+    },
+    {
+        "th": "นักดนตรี",
+        "en": "musician"
+    },
+    {
+        "th": "ช่างไม้",
+        "en": "carpenter"
+    },
+    {
+        "th": "พนักงานขาย",
+        "en": "salesperson"
+    },
+    {
+        "th": "โทรศัพท์",
+        "en": "phone"
+    },
+    {
+        "th": "โทรทัศน์",
+        "en": "television"
+    },
+    {
+        "th": "วิทยุ",
+        "en": "radio"
+    },
+    {
+        "th": "กล้องถ่ายรูป",
+        "en": "camera"
+    },
+    {
+        "th": "อินเทอร์เน็ต",
+        "en": "internet"
+    },
+    {
+        "th": "อีเมล",
+        "en": "email"
+    },
+    {
+        "th": "หน้าจอ",
+        "en": "screen"
+    },
+    {
+        "th": "แป้นพิมพ์",
+        "en": "keyboard"
+    },
+    {
+        "th": "เมาส์",
+        "en": "mouse"
+    },
+    {
+        "th": "เครื่องพิมพ์",
+        "en": "printer"
+    },
+    {
+        "th": "แท็บเล็ต",
+        "en": "tablet"
+    },
+    {
+        "th": "เว็บไซต์",
+        "en": "website"
+    },
+    {
+        "th": "วิดีโอ",
+        "en": "video"
+    },
+    {
+        "th": "ฟุตบอล",
+        "en": "football"
+    },
+    {
+        "th": "บาสเก็ตบอล",
+        "en": "basketball"
+    },
+    {
+        "th": "เทนนิส",
+        "en": "tennis"
+    },
+    {
+        "th": "ปั่นจักรยาน",
+        "en": "cycling"
+    },
+    {
+        "th": "กอล์ฟ",
+        "en": "golf"
+    },
+    {
+        "th": "มวย",
+        "en": "boxing"
+    },
+    {
+        "th": "สกี",
+        "en": "skiing"
+    },
+    {
+        "th": "ลูกบอล",
+        "en": "ball"
+    },
+    {
+        "th": "ทีม",
+        "en": "team"
+    },
+    {
+        "th": "การแข่งขัน",
+        "en": "match"
+    },
+    {
+        "th": "ผู้ชนะ",
+        "en": "winner"
+    },
+    {
+        "th": "คะแนน",
+        "en": "score"
+    },
+    {
+        "th": "โค้ช",
+        "en": "coach"
+    },
+    {
+        "th": "สนามกีฬา",
+        "en": "stadium"
+    },
+    {
+        "th": "รางวัล",
+        "en": "prize"
+    }
+]
