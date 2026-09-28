@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="th"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>CE306 แบบทดสอบ สัปดาห์ 1–7</title>
+<style>
+:root{--bg:#f7f7f5;--fg:#1c1c1a;--card:#fff;--bd:#dcdcd6;--ac:#2f6fed;--ok:#1a8f4c;--okb:#e3f5ea;--no:#c8322b;--nob:#fbe7e5;--mut:#6b6b64;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#161615;--fg:#eeeeea;--card:#222220;--bd:#3a3a36;--ac:#6b9bff;--ok:#5fd08a;--okb:#16321f;--no:#ff7d75;--nob:#3a1b19;--mut:#a0a09a}}
+:root[data-theme="dark"]{--bg:#161615;--fg:#eeeeea;--card:#222220;--bd:#3a3a36;--ac:#6b9bff;--ok:#5fd08a;--okb:#16321f;--no:#ff7d75;--nob:#3a1b19;--mut:#a0a09a}
+*{box-sizing:border-box}html{scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans Thai",system-ui,-apple-system,"Segoe UI",sans-serif;line-height:1.55}
+main{max-width:680px;margin:0 auto;padding:20px 16px 48px}
+h1{font-size:1.4rem;margin:0 0 4px}p.s{color:var(--mut);margin:0 0 18px}
+.grid{display:grid;gap:10px}
+button{font:inherit;color:inherit;cursor:pointer}
+.part{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:14px 16px;text-align:left;width:100%}
+.part:hover{border-color:var(--ac)}.part b{display:block}.part span{color:var(--mut);font-size:.9rem}
+.part.all{background:var(--ac);color:#fff;border-color:var(--ac)}.part.all span{color:#fff;opacity:.85}
+.bar{height:6px;background:var(--bd);border-radius:3px;margin:8px 0 16px;overflow:hidden}.bar i{display:block;height:100%;background:var(--ac)}
+.top{display:flex;justify-content:space-between;color:var(--mut);font-size:.9rem;gap:8px}
+.q{font-size:1.1rem;font-weight:600;margin:0 0 14px}
+.opt{display:block;width:100%;text-align:left;background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:11px 14px;margin-bottom:8px}
+.opt:hover:not(:disabled){border-color:var(--ac)}.opt.ok{background:var(--okb);border-color:var(--ok)}.opt.no{background:var(--nob);border-color:var(--no)}
+.btn{background:var(--ac);color:#fff;border:0;border-radius:10px;padding:11px 20px;margin:8px 8px 0 0}.btn.g{background:transparent;color:var(--fg);border:1px solid var(--bd)}
+.score{font-size:3rem;font-weight:700;margin:6px 0}.rev{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:10px 14px;margin-bottom:8px;font-size:.95rem}
+.rev .n{color:var(--no)}.rev .y{color:var(--ok)}
+</style></head><body><main id="app"></main>
+<script>
+const L=["ก","ข","ค","ง"];
+const P=[
+["สัปดาห์ที่ 1: สถาปัตยกรรมเว็บและโพรโทคอล HTTP",[
+["HTTP response body มักใช้เก็บสิ่งใด?",["IP address ของ Client เท่านั้น","เนื้อหาทรัพยากร เช่น HTML หรือ JSON","ชื่อ method ของ request เท่านั้น","หมายเลข port ของ Server เท่านั้น"],1],
+["HTTP method ใดใช้ขออ่านทรัพยากรโดยทั่วไป?",["PATCH","DELETE","POST","GET"],3],
+["เมื่อ Browser ขอหน้าเว็บ ขั้นตอนใดเกิดขึ้นก่อนการ Render HTML โดยทั่วไป?",["ส่งอีเมลยืนยัน","สร้างฐานข้อมูลใหม่","ส่ง HTTP request และรับ HTTP response","บันทึกข้อมูลลง LocalStorage เสมอ"],2],
+["HTTPS เพิ่มคุณสมบัติสำคัญใดให้ HTTP?",["ทำให้ HTTP เป็น stateful โดยอัตโนมัติ","ทำให้ URL ไม่ต้องมี domain","การเข้ารหัสและตรวจสอบความถูกต้องผ่าน TLS","แทนที่ HTML ด้วย JSON"],2],
+["HTTP status code กลุ่ม 2xx หมายถึงอะไร?",["คำขอสำเร็จ","เกิดข้อผิดพลาดฝั่ง Client","ต้องเปลี่ยนเส้นทางเสมอ","เกิดข้อผิดพลาดฝั่ง Server"],0],
+["ส่วนใดของ URL ระบุโพรโทคอลที่ใช้สื่อสาร?",["Fragment เช่น #details","Query string เช่น ?page=2","Scheme เช่น https","Path เช่น /products"],2],
+["HTTP มีลักษณะ stateless หมายความว่าอย่างไร?",["แต่ละ request เป็นอิสระ และเซิร์ฟเวอร์ไม่จำสถานะเดิมโดยอัตโนมัติ","Client ติดต่อ Server ได้เพียงครั้งเดียว","HTTP ไม่สามารถส่งข้อมูลแบบข้อความได้","เซิร์ฟเวอร์เก็บ session ของผู้ใช้เสมอ"],0],
+["องค์ประกอบหลักของสถาปัตยกรรมเว็บแบบ Client–Server คือข้อใด?",["Server ส่ง request ให้ Client เท่านั้น","Client และ Server ต้องอยู่เครื่องเดียวกัน","Client ส่ง request และ Server ส่ง response","Browser ทำหน้าที่เป็นฐานข้อมูล"],2],
+["ส่วนใดของ HTTP message ใช้ส่ง metadata เช่น Content-Type?",["Header","Status line เท่านั้น","URL fragment","Payload เท่านั้น"],0],
+["ข้อใดเป็นความหมายที่ถูกต้องของ HTTP 404?",["ผู้ใช้ไม่ได้รับอนุญาตเสมอ","คำขอสำเร็จ","เซิร์ฟเวอร์ล่มทุกกรณี","ไม่พบทรัพยากรที่ร้องขอ"],3]]],
+["สัปดาห์ที่ 2: HTML, CSS และ Document Object Model (DOM)",[
+["CSS selector ใดเลือก element ทุกตัวที่มี class เป็น card?",[".card","card.","#card","@card"],0],
+["DOM คืออะไร?",["โครงสร้างแบบต้นไม้ของ document ที่โปรแกรมสามารถอ่านและแก้ไขได้","รูปแบบไฟล์ CSS","โพรโทคอลแทน HTTP","ฐานข้อมูลของ Browser"],0],
+["HTML มีหน้าที่หลักอะไรในการพัฒนาเว็บ?",["จัดการฐานข้อมูลโดยตรง","เข้ารหัสการเชื่อมต่อ","คอมไพล์ JavaScript","กำหนดโครงสร้างและความหมายของเนื้อหา"],3],
+["display: flex เหมาะกับงานใด?",["เข้ารหัสข้อมูล HTTPS","กำหนด HTTP status code","จัดวางสมาชิกตามแกนหลักและแกนขวาง","สร้างฐานข้อมูลเชิงสัมพันธ์"],2],
+["Semantic HTML มีประโยชน์สำคัญอย่างไร?",["ทำให้ไม่ต้องใช้ CSS","แทนที่ JavaScript ได้ทั้งหมด","ช่วยสื่อความหมายโครงสร้างแก่ Browser, Search Engine และ Screen Reader","ทำให้เว็บไม่ต้องใช้ HTTP"],2],
+["CSS selector ใดเลือก element ที่มี id เป็น main?",["main#","*main","#main",".main"],2],
+["แท็กใดเหมาะสำหรับหัวข้อระดับสูงสุดของหน้าเว็บ?",["<p>","<h1>","<br>","<span>"],1],
+["คำสั่ง JavaScript ใดใช้ค้นหา element ตาม CSS selector หนึ่งรายการ?",["document.writeFile()","document.querySelector()","window.fetchCSS()","console.select()"],1],
+["CSS Box Model ประกอบด้วยอะไรบ้าง?",["Header, Body, Footer และ Script","Client, Server, Request และ Response","Content, Padding, Border และ Margin","Row, Column, Table และ Cell"],2],
+["เหตุใดจึงควรแยก HTML และ CSS ตามหน้าที่?",["ทำให้ทุกหน้าเว็บเป็น SPA","ทำให้ไม่ต้องใช้ Browser","ทำให้ Server ไม่ต้องตอบ response","ช่วยแยกโครงสร้างเนื้อหาออกจากการนำเสนอและดูแลรักษาง่าย"],3]]],
+["สัปดาห์ที่ 3: JavaScript: Expressions, Functions, Scope, Objects และ Events",[
+["Event listener ใช้ทำอะไร?",["กำหนดฟังก์ชันให้ทำงานเมื่อเกิดเหตุการณ์ เช่น click","สร้างตารางฐานข้อมูล","สร้าง HTTP server","แปลง CSS เป็น HTML"],0],
+["ข้อใดอธิบายความแตกต่างระหว่าง let และ const ได้ถูกต้อง?",["const ไม่อนุญาตให้กำหนดค่าอ้างอิงใหม่ ส่วน let อนุญาต","const มี function scope เสมอ","let ใช้ได้เฉพาะตัวเลข","let ไม่สามารถเก็บ object ได้"],0],
+["Arrow function ข้อใดคืนค่า x คูณ 2?",["x -> return 2","function => x * 2","x = x * 2 =>","x => x * 2"],3],
+["เครื่องหมาย === ใน JavaScript ทำหน้าที่อะไร?",["เปรียบเทียบเฉพาะชนิดข้อมูล","เปรียบเทียบแล้วแปลงข้อมูลเสมอ","เปรียบเทียบค่าและชนิดข้อมูลโดยไม่แปลงชนิด","กำหนดค่าให้ตัวแปร"],2],
+["Block scope ใน JavaScript เกี่ยวข้องกับตัวแปรชนิดใดมากที่สุด?",["property ของ window เท่านั้น","parameter ของ HTML","let และ const","var เท่านั้น"],2],
+["try...catch ใช้สำหรับอะไร?",["จัดการ exception ที่อาจเกิดระหว่างประมวลผล","ประกาศตัวแปร global","จัดรูปแบบ CSS","สร้าง DOM node เท่านั้น"],0],
+["คำสั่งใดเพิ่ม listener ให้ปุ่ม button?",["button.listenHTTP(handler)","button.addEventListener('click', handler)","document.addDatabase(button)","button.onServer('click')"],1],
+["ฟังก์ชัน Higher-Order Function คืออะไร?",["ฟังก์ชันที่ไม่มี return","ฟังก์ชันที่รับฟังก์ชันเป็นอาร์กิวเมนต์หรือคืนค่าฟังก์ชัน","ฟังก์ชันที่ใช้ได้เฉพาะใน class","ฟังก์ชันที่มีบรรทัดมากกว่า 100 บรรทัด"],1],
+["Array method ใดสร้าง Array ใหม่โดยแปลงสมาชิกทุกตัว?",["map()","push()","shift()","pop()"],0],
+["Object ใน JavaScript เก็บข้อมูลในรูปแบบใด?",["คู่ key–value","บิต 0 และ 1 เท่านั้น","แถวและคอลัมน์เท่านั้น","แท็ก HTML เท่านั้น"],0]]],
+["สัปดาห์ที่ 4: Modern Web Frameworks, Single Page Application และ Routing",[
+["Props โดยทั่วไปใช้ทำอะไร?",["เก็บรหัสผ่านผู้ใช้","ส่งข้อมูลจาก Component แม่ไป Component ลูก","กำหนด DNS record","สร้างฐานข้อมูลใหม่"],1],
+["Server-side route และ Client-side route ต่างกันอย่างไร?",["Server route ไม่เกี่ยวข้องกับ URL","Client route ใช้ได้เฉพาะ HTTP POST","ทั้งสองทำงานเฉพาะใน Database","Server route จัดการ request ที่ Server ส่วน Client route เปลี่ยน UI ใน Browser"],3],
+["State ใน Frontend Framework หมายถึงอะไร?",["ไฟล์ CSS ภายนอก","โครงสร้างตาราง SQL","ข้อมูลภายในที่เปลี่ยนแล้วส่งผลต่อการ Render UI","HTTP status code"],2],
+["Client-side Routing ทำหน้าที่อะไร?",["เข้ารหัส HTTPS","เปลี่ยนมุมมองตาม URL โดยไม่โหลดเอกสารใหม่ทั้งหน้า","เชื่อมต่อฐานข้อมูลโดยตรง","กำหนดเส้นทาง packet ใน Router จริง"],1],
+["เหตุใด Framework จึงใช้แนวคิด Virtual DOM หรือระบบ Reactive?",["เพื่อลดและจัดการการอัปเดต UI ให้มีประสิทธิภาพ","เพื่อแทนที่ฐานข้อมูล","เพื่อสร้าง DNS record","เพื่อเข้ารหัส TLS"],0],
+["Single Page Application (SPA) คืออะไร?",["เว็บที่ใช้ HTML เพียงหนึ่งแท็ก","เว็บที่มีได้เพียงหนึ่ง URL","เว็บที่ไม่มี Backend","เว็บที่โหลด shell หลักครั้งหนึ่งแล้วเปลี่ยนเนื้อหาผ่าน JavaScript"],3],
+["History API ช่วย SPA ในเรื่องใด?",["สร้าง JWT","อ่านรหัสผ่านจาก Browser","คอมไพล์ CSS","เปลี่ยน URL และประวัติการนำทางโดยไม่ Reload เต็มหน้า"],3],
+["Component ใน React/Vue มีแนวคิดหลักอย่างไร?",["แทนที่ HTTP ด้วย WebSocket เสมอ","รวมโค้ดทั้งหมดไว้ในฟังก์ชันเดียว","เก็บข้อมูลทั้งหมดใน CSS","แบ่ง UI เป็นหน่วยย่อยที่นำกลับมาใช้และประกอบกันได้"],3],
+["ข้อดีของ Component-based Architecture คืออะไร?",["แยกความรับผิดชอบ ทดสอบง่าย และนำกลับมาใช้ได้","ทำให้ไม่ต้องใช้ JavaScript","ลด HTTP status code เหลือหนึ่งค่า","ทำให้ฐานข้อมูลเป็น NoSQL อัตโนมัติ"],0],
+["ข้อใดเป็นความเสี่ยงของ SPA หากออกแบบไม่ดี?",["ไม่สามารถใช้ CSS ได้","Initial bundle ใหญ่และ SEO/Accessibility อาจซับซ้อนขึ้น","ต้องใช้ฐานข้อมูลชนิดเดียวเท่านั้น","ไม่สามารถเรียก API ได้"],1]]],
+["สัปดาห์ที่ 5: การพัฒนาฝั่งเซิร์ฟเวอร์ด้วย Node.js",[
+["ข้อมูลลับ เช่น database password ควรจัดการอย่างไร?",["ใส่ใน source code และ commit","เก็บใน environment variable หรือ secret manager ไม่ hard-code","เก็บในชื่อไฟล์ HTML","ส่งไปยัง Client ทุก request"],1],
+["async/await ใช้เพื่ออะไร?",["บังคับให้ทุกงาน synchronous","เปลี่ยน JavaScript เป็น CSS","สร้าง class เท่านั้น","เขียนโค้ด asynchronous ให้อ่านคล้ายโค้ดลำดับปกติ"],3],
+["http.createServer() ใน Node.js ใช้ทำอะไร?",["สร้าง MongoDB collection","สร้าง CSS selector","สร้าง TLS certificate อัตโนมัติ","สร้าง HTTP server และกำหนดการตอบ request"],3],
+["npm มีหน้าที่หลักอะไร?",["ใช้วาด DOM","เป็นฐานข้อมูล SQL","จัดการ package และ dependency ของโครงการ Node.js","เป็น Web Server สำเร็จรูปเท่านั้น"],2],
+["Event Loop ใน Node.js มีหน้าที่สำคัญอะไร?",["สร้างตาราง SQL","เข้ารหัสรหัสผ่าน","จัดรูปแบบ HTML","ประสานงาน callback และงาน asynchronous โดยไม่บล็อก thread หลัก"],3],
+["Node.js คืออะไร?",["JavaScript runtime ที่ทำงานนอก Browser โดยใช้ V8","ฐานข้อมูลแบบ Document","Web Browser ชนิดหนึ่ง","CSS Framework"],0],
+["Non-blocking I/O มีข้อดีอย่างไรสำหรับ Web Server?",["ทำให้ไม่ต้องจัดการ error","ทำให้ CPU ทำงานเพียงคำสั่งเดียว","รองรับงาน I/O หลายรายการได้โดยไม่รอทีละงาน","ยกเลิก asynchronous code"],2],
+["Promise แทนสถานะของอะไร?",["DOM element","ผลลัพธ์ asynchronous ที่อาจ pending, fulfilled หรือ rejected","HTTP header เท่านั้น","SQL transaction เท่านั้น"],1],
+["CommonJS ใช้คำสั่งใดนำเข้า module โดยทั่วไป?",["importCSS()","using()","require()","include()"],2],
+["เมื่อ await Promise ที่ reject ควรจัดการอย่างไร?",["เปลี่ยน Promise เป็น CSS","ใช้ try...catch หรือแนวทาง error handling ที่เหมาะสม","ปิด Event Loop","ละเว้น error เสมอ"],1]]],
+["สัปดาห์ที่ 6: ระบบฐานข้อมูลเชิงสัมพันธ์ SQL และ PostgreSQL",[
+["Primary Key มีหน้าที่อะไร?",["เชื่อม Browser กับ Server","จัดรูปแบบผลลัพธ์","เข้ารหัสข้อมูล","ระบุแต่ละแถวให้ไม่ซ้ำกัน"],3],
+["INNER JOIN คืนผลลัพธ์แบบใด?",["ทุกแถวจากทั้งสองตารางโดยไม่จับคู่","ทุกแถวจากตารางซ้ายเสมอ","แถวที่มีค่าจับคู่กันตามเงื่อนไข Join","เฉพาะแถวที่ไม่มีคู่"],2],
+["คำสั่ง SQL ใดใช้ดึงข้อมูล?",["DROP","INSERT","SELECT","UPDATE"],2],
+["ACID ตัวอักษร A หมายถึงอะไร?",["Atomicity: Transaction สำเร็จทั้งหมดหรือยกเลิกทั้งหมด","Aggregation","Authorization","Availability"],0],
+["Parameterized Query ช่วยลดความเสี่ยงใด?",["DNS lookup","SQL Injection","Cross-site CSS","TLS handshake"],1],
+["WHERE ใน SQL ใช้ทำอะไร?",["รวมตารางทุกกรณี","กรองแถวตามเงื่อนไข","เรียงคอลัมน์เท่านั้น","สร้างผู้ใช้ฐานข้อมูล"],1],
+["Relational Database จัดข้อมูลหลักในรูปแบบใด?",["กราฟ DOM","ตารางที่ประกอบด้วยแถวและคอลัมน์","ไฟล์ HTML เท่านั้น","HTTP messages"],1],
+["Index ในฐานข้อมูลมีผลอย่างไร?",["ลบความจำเป็นของ Primary Key","ช่วยให้ค้นหาบางรูปแบบเร็วขึ้น แต่เพิ่มต้นทุนการเขียนและพื้นที่","ทำให้ไม่ต้องสำรองข้อมูล","ทำให้ทุก Query เป็น O(1)"],1],
+["Foreign Key ใช้เพื่ออะไร?",["กำหนด HTTP method","อ้างอิง Primary Key ของอีกตารางเพื่อรักษาความสัมพันธ์","แทนที่ Index ทุกชนิด","เก็บไฟล์รูปภาพเท่านั้น"],1],
+["GROUP BY มักใช้ร่วมกับอะไร?",["JWT signature","CSS selector","HTTP cookie","Aggregate function เช่น COUNT หรือ SUM"],3]]],
+["สัปดาห์ที่ 7: ฐานข้อมูล NoSQL, MongoDB และ CRUD",[
+["หน่วยข้อมูลหลักใน MongoDB เรียกว่าอะไร?",["HTTP Packet","DOM Node","Row เท่านั้น","Document"],3],
+["ควรเลือก Embed ข้อมูลเมื่อใดโดยทั่วไป?",["ข้อมูลถูกอ่านร่วมกันบ่อยและมีขนาด/การเติบโตที่ควบคุมได้","ข้อมูลมีความสัมพันธ์ many-to-many ขนาดใหญ่มากเสมอ","ต้องการ Join ข้ามระบบทุกครั้ง","ต้องการเก็บรหัสผ่านแบบ plaintext"],0],
+["BSON แตกต่างจาก JSON อย่างไรโดยสรุป?",["BSON รองรับชนิดข้อมูลเพิ่มเติมและเป็นรูปแบบไบนารี","BSON เป็นโพรโทคอลเครือข่าย","BSON ไม่มี object","BSON ใช้ได้เฉพาะ CSS"],0],
+["คำสั่ง MongoDB ใดใช้ค้นหาเอกสารหลายรายการ?",["deleteOne()","find()","insertOne()","dropDatabase()"],1],
+["ObjectId มักใช้ทำอะไรใน MongoDB?",["เป็น TLS certificate","เป็นค่าเริ่มต้นของฟิลด์ _id เพื่อระบุ document","เป็น CSS class","เป็น HTTP status code"],1],
+["MongoDB จัดเป็นฐานข้อมูลประเภทใด?",["Graph Database เท่านั้น","Relational Database เท่านั้น","Document Database","Time-series อย่างเดียว"],2],
+["CRUD ตัว C หมายถึงอะไร?",["Create","Compile","Copy","Connect"],0],
+["ข้อดีของ Schema Flexibility คืออะไร?",["ไม่ต้องตรวจสอบข้อมูลเลย","Document ใน Collection สามารถมีโครงสร้างต่างกันได้เมื่อเหมาะสม","ทำให้ข้อมูลถูกต้องเสมอโดยอัตโนมัติ","ทำให้ Join เร็วกว่า SQL เสมอ"],1],
+["Collection ใน MongoDB ใกล้เคียงกับแนวคิดใดใน SQL?",["Index เท่านั้น","Table","Stored Procedure","Transaction"],1],
+["updateOne() มีหน้าที่อะไร?",["เพิ่ม collection ใหม่เท่านั้น","แก้ไขเอกสารหนึ่งรายการที่ตรงเงื่อนไข","อ่านเอกสารทั้งหมด","ลบฐานข้อมูล"],1]]]
+];
+const app=document.getElementById("app");
+const shuffle=a=>{a=[...a];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]]}return a};
+let S;
+function home(){
+ app.innerHTML=`<h1>แบบทดสอบ CE306</h1><p class="s">เลือกสัปดาห์ที่ต้องการทำ ทำซ้ำได้ไม่จำกัด สุ่มลำดับข้อทุกครั้ง</p><div class="grid">
+ <button class="part all" data-p="all"><b>รวมทั้งหมด (สัปดาห์ 1–7)</b><span>${P.reduce((n,p)=>n+p[1].length,0)} ข้อ</span></button>`+
+ P.map((p,i)=>`<button class="part" data-p="${i}"><b>${p[0]}</b><span>${p[1].length} ข้อ</span></button>`).join("")+`</div>`;
+ app.querySelectorAll(".part").forEach(b=>b.onclick=()=>start(b.dataset.p));
+}
+function start(p){
+ const items=p==="all"?P.flatMap(x=>x[1].map(q=>({q,w:x[0].split(":")[0]}))):P[p][1].map(q=>({q,w:""}));
+ S={p,qs:shuffle(items),i:0,sc:0,wrong:[],done:false};show();
+}
+function show(){
+ const {q:[t,o,a],w}=S.qs[S.i],n=S.qs.length;
+ app.innerHTML=`<div class="top"><span>${S.p==="all"?w:P[S.p][0].split(":")[0]}</span><span>ข้อ ${S.i+1}/${n} · คะแนน ${S.sc}</span></div>
+ <div class="bar"><i style="width:${S.i/n*100}%"></i></div><p class="q">${t}</p><div id="o"></div><div id="nx"></div><button class="btn g" id="qt">ออก</button>`;
+ const box=document.getElementById("o");
+ o.forEach((x,k)=>{const b=document.createElement("button");b.className="opt";b.textContent=L[k]+". "+x;b.onclick=()=>pick(k);box.appendChild(b)});
+ document.getElementById("qt").onclick=home;
+}
+function pick(k){
+ const {q:[t,o,a]}=S.qs[S.i];const bs=[...document.querySelectorAll(".opt")];
+ bs.forEach((b,i)=>{b.disabled=true;if(i===a)b.classList.add("ok");else if(i===k)b.classList.add("no")});
+ if(k===a)S.sc++;else S.wrong.push({t,you:o[k],yl:L[k],ans:o[a],al:L[a]});
+ const last=S.i===S.qs.length-1,nx=document.getElementById("nx");
+ nx.innerHTML=`<button class="btn">${last?"ดูคะแนน":"ข้อถัดไป"}</button>`;
+ nx.firstChild.onclick=()=>{if(last)result();else{S.i++;show()}};
+}
+function result(){
+ const n=S.qs.length,pc=Math.round(S.sc/n*100);
+ app.innerHTML=`<h1>ทำเสร็จแล้ว</h1><div class="score">${S.sc} / ${n}</div><p class="s">${pc}%</p>
+ <button class="btn" id="re">ทำซ้ำชุดนี้</button><button class="btn g" id="hm">กลับหน้าหลัก</button>
+ ${S.wrong.length?`<h3 style="margin-top:24px">ข้อที่ตอบผิด (${S.wrong.length})</h3>`+S.wrong.map(w=>`<div class="rev"><b>${w.t}</b><br><span class="n">คุณตอบ: ${w.yl}. ${w.you}</span><br><span class="y">เฉลย: ${w.al}. ${w.ans}</span></div>`).join(""):`<p>ถูกทุกข้อ!</p>`}`;
+ document.getElementById("re").onclick=()=>start(S.p);document.getElementById("hm").onclick=home;
+}
+home();
+</script></body></html>
